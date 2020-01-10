@@ -2,7 +2,7 @@
 title: Adobe Experience cloud文档
 description: 本页包含所有Adobe Experience cloud文档和支持用户指南及教程的完整列表。
 translation-type: tm+mt
-source-git-commit: e3e9c587efc6228bc1465fca4141ce246a5cb310
+source-git-commit: 9a25d2e82e33e979d74b270e54f099a55cc6fd8f
 
 ---
 
@@ -207,7 +207,7 @@ source-git-commit: e3e9c587efc6228bc1465fca4141ce246a5cb310
 </tbody>
 </table>
 
-## ![图标](/help/assets/experience-cloud.png) Adobe Experience Platform
+## ![图标](/help/assets/platform.png) Adobe Experience Platform
 
 <table>
 <thead>
