@@ -2,7 +2,7 @@
 title: Adobe Experience cloud文档
 description: 本页包含所有Adobe Experience cloud文档和支持用户指南及教程的完整列表。
 translation-type: tm+mt
-source-git-commit: 9f8c85d9589d67ad7e0e7adf627a8feca7beba68
+source-git-commit: 0ead691624a9a9e2e4f42333ac3ed5bb9f11ef68
 
 ---
 
@@ -299,17 +299,20 @@ source-git-commit: 9f8c85d9589d67ad7e0e7adf627a8feca7beba68
 <thead>
   <tr>
     <th>用户指南</th>
-    <th></th>
+    <th>教程</th>
   </tr>
 </thead>
 <tbody>
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> 旅程安排帮助</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html"> 旅程安排用户指南</a></li>
     </ul>
   </td>
   <td>
+    <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> 旅程编排教程</a></li>
+    </ul>
   </td>
 </tr>
 </tbody>
