@@ -2,7 +2,7 @@
 title: Adobe Experience cloud文档
 description: 本页包含所有Adobe Experience cloud文档和支持用户指南及教程的完整列表。
 translation-type: tm+mt
-source-git-commit: 4375979361d0040943d6bae968c3319040b16ee3
+source-git-commit: c5870d5c3bd3409b2553d52cb29f53e103275cc2
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 4375979361d0040943d6bae968c3319040b16ee3
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html">分析主要指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> 分析分析指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> 分析工具指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/admin/home.html"> 管理指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/components/home.html"> 组件指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/export/home.html"> 导出指南</a></li>
