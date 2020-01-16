@@ -2,7 +2,7 @@
 title: Adobe Experience cloud文档
 description: 本页包含所有Adobe Experience cloud文档和支持用户指南及教程的完整列表。
 translation-type: tm+mt
-source-git-commit: 7802a6b11d6b358d8106f004212709b497c9ab2b
+source-git-commit: 9aa296a9b93c0dafdcd07d3e227613dae1c2191d
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: 7802a6b11d6b358d8106f004212709b497c9ab2b
 <thead>
   <tr>
     <th>用户指南</th>
-    <th>教程</th>
+    <th>教程与开发</th>
   </tr>
 </thead>
 <tbody>
@@ -88,6 +88,11 @@ source-git-commit: 7802a6b11d6b358d8106f004212709b497c9ab2b
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Target教程</a></li>
+      <li><a href="https://developers.adobetarget.com/api/delivery-api/"> 目标服务器端API</a></li>
+      <li><a href="https://github.com/adobe/target-nodejs-sdk"> 目标节点JS SDK</a></li>
+      <li><a href="https://github.com/adobe/target-java-sdk"> 目标Java SDK</a></li>
+      <li><a href="https://developers.adobetarget.com/api/recommendations/"> Target Recommendations API</a></li>
+      <li><a href="http://developers.adobetarget.com/api/#introduction"> 目标Adobe.IO文档</a></li>
     </ul>
   </td>
 </tr>
