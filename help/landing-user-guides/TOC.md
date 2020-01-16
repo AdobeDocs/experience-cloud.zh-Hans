@@ -8,7 +8,7 @@ getting-started-url: https://landing.adobe.com/experience-league/
 tutorials-title: 教程
 tutorials-url: https://docs.adobe.com/content/help/en/experience-cloud/tutorials/home.html
 translation-type: tm+mt
-source-git-commit: a3d8b1f191c5b6e6a1d2fce991726b5b7a4e0185
+source-git-commit: a5114af3af79b307d127745d4ecb8f1574ded9e8
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a3d8b1f191c5b6e6a1d2fce991726b5b7a4e0185
 
 + [Experience cloud文档](home.md)
 + [发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
-+ [Experience Cloud 学习与支持](https://helpx.adobe.com/support/experience-cloud.html)
++ [Experience Cloud学习和支持](https://helpx.adobe.com/support/experience-cloud.html)
 + [Experience League](https://experienceleague.adobe.com/)
 + [社区论坛](https://forums.adobe.com/community/experience-cloud/)
 + [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
