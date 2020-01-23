@@ -2,7 +2,7 @@
 title: Adobe Experience cloud文档
 description: 本页包含所有Adobe Experience cloud文档和支持用户指南及教程的完整列表。
 translation-type: tm+mt
-source-git-commit: cc5c6fc4c0cff2107baffe1f3a2cbb6174e4bedf
+source-git-commit: aad5d5503b1041cc060bfa4b38bfbdfcd5b26e87
 
 ---
 
@@ -258,7 +258,7 @@ source-git-commit: cc5c6fc4c0cff2107baffe1f3a2cbb6174e4bedf
   <td>
     <p><strong>Experience Platform</strong></p>
     <ul>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/overview.html"> Experience platform文档</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Experience platform文档</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html"> 平台发行说明</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
