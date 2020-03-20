@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 translation-type: tm+mt
-source-git-commit: 77f00aaf2984d22e69e262432a66b526e8129a84
+source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
 
 ---
 
@@ -400,7 +400,7 @@ source-git-commit: 77f00aaf2984d22e69e262432a66b526e8129a84
       <li><a href="https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html"> Search&amp;Promote</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/livefyre/using/home.html"> Livefyre 用户指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/livefyre/implementation/home.html"> Livefyre 实施指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/social/using/home.html"> 社交</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/social/using/home.html"> 社交（不再提供产品）</a></li>
     </ul>
   </td>
   <td>
