@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 translation-type: tm+mt
-source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
+source-git-commit: 77f00aaf2984d22e69e262432a66b526e8129a84
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 
 ![横幅](/help/assets/experience-cloud-banner-3.png)
 
-本页包含Adobe Experience cloud用户指南和教程的完整列表。
+本页包含Adobe Experience Cloud用户指南和教程的完整列表。
 
 ## ![图标](/help/assets/experience-cloud.png) 发行说明
 
@@ -122,7 +122,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Campaign Classic教程</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Campaign standard教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Campaign Standard教程</a></li>
     </ul>
   </td>
 </tr>
@@ -147,7 +147,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Audience manager教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Audience Manager教程</a></li>
     </ul>
   </td>
 </tr>
@@ -168,7 +168,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
   <td>
     <p><strong>AEM 作为云服务</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> AEM as Cloud service用户指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> AEM as Cloud Service用户指南</a></li>
     </ul>
     <p><strong>AEM版本</strong></p>
     <ul>
@@ -193,7 +193,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html"> AEM As a Cloud service教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html"> AEM As a Cloud Service教程</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> AEM Assets教程</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html"> AEM Forms教程</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html"> AEM Sites教程</a></li>
@@ -223,7 +223,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
       <li><a href="https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html"> 核心服务界面</a></li>
       <li><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> 管理控制台</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Experience Cloud ID服务指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html"> Mobile services指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html"> Mobile Services指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> Mobile Services v4 SDK</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html"> 设备协作指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Experience Platform Launch</a></li>
@@ -244,7 +244,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 </tbody>
 </table>
 
-## ![Icon](/help/assets/platform.png) Experience Platform
+## ![图标](/help/assets/platform.png) Experience Platform
 
 <table>
 <thead>
@@ -258,7 +258,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
   <td>
     <p><strong>Experience Platform</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Experience platform文档</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Experience Platform文档</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html"> 平台发行说明</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
@@ -277,7 +277,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> 体验平台教程</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Launch 实施指南</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> Experience Platform 开发人员 API</a></li>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/web-sdk.html"> Experience Platform Web SDK</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/edge/home.html"> Experience Platform Web SDK</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> 旅程编排教程</a></li>
     </ul>
   </td>
@@ -312,7 +312,7 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 </tbody>
 </table>
 
-## ![Icon](/help/assets/advertising-cloud.png) Advertising Cloud
+## ![图标](/help/assets/advertising-cloud.png) Advertising Cloud
 
 可通过在产品中单击任何页面顶部的“帮助”图标 (?) 来访问 Advertising Cloud 帮助。
 
