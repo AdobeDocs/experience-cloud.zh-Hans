@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 translation-type: tm+mt
-source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
+source-git-commit: 2c27fc142ae16c5dc985b6790d7de2393c7cd863
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
 
 ![横幅](/help/assets/experience-cloud-banner-3.png)
 
-本页包含Adobe Experience Cloud用户指南和教程的完整列表。
+本页包含一列表全面的Adobe Experience Cloud用户指南和教程。
 
 ## ![图标](/help/assets/experience-cloud.png) 发行说明
 
@@ -49,15 +49,15 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html">Analytics 主要指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> 分析工具指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Analytics 工具指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/admin/home.html"> 管理指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/components/home.html"> 组件指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/export/home.html"> 导出指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"> 实施指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> 导入指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> 集成指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> 媒体分析指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> 数据工作台指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Media Analytics 指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> 客户历程分析</a></li>
     </ul>
   </td>
@@ -72,7 +72,7 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
 </tbody>
 </table>
 
-## ![图标](/help/assets/target.png) Target
+## ![图标](/help/assets/target.png) 目标
 
 <table>
 <thead>
@@ -90,11 +90,11 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Target教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> 目标教程</a></li>
       <li><a href="https://developers.adobetarget.com/api/delivery-api/"> 目标服务器端API</a></li>
-      <li><a href="https://github.com/adobe/target-nodejs-sdk"> 目标节点JS SDK</a></li>
+      <li><a href="https://github.com/adobe/target-nodejs-sdk"> 目标NodeJS SDK</a></li>
       <li><a href="https://github.com/adobe/target-java-sdk"> 目标Java SDK</a></li>
-      <li><a href="https://developers.adobetarget.com/api/recommendations/"> Target Recommendations API</a></li>
+      <li><a href="https://developers.adobetarget.com/api/recommendations/"> 目标推荐API</a></li>
       <li><a href="http://developers.adobetarget.com/api/#introduction"> 目标Adobe.IO文档</a></li>
     </ul>
   </td>
@@ -102,7 +102,7 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
 </tbody>
 </table>
 
-## ![图标](/help/assets/campaign.png) Campaign
+## ![图标](/help/assets/campaign.png) 活动
 
 <table>
 <thead>
@@ -147,7 +147,7 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Audience Manager教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> 受众管理器教程</a></li>
     </ul>
   </td>
 </tr>
@@ -184,8 +184,8 @@ source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html"> AEM Dispatcher</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html"> AEM Cloud Manager</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"> AEM 核心组件</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/exc/using/overview.html"> Adobe Experience Cloud 库</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html"> AEM 桌面应用程序</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html"> AEM Brand Portal</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/table-of-contents/introduction.html"> AEM Forms 自动转换服务</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html"> Dynamic Media Classic</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html"> Dynamic Media 开发人员指南</a></li>
