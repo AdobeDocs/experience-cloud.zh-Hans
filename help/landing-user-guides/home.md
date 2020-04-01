@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 translation-type: tm+mt
-source-git-commit: 2c27fc142ae16c5dc985b6790d7de2393c7cd863
+source-git-commit: 94b17629897a888d3df601dbba632afbd99905af
 
 ---
 
@@ -259,7 +259,7 @@ source-git-commit: 2c27fc142ae16c5dc985b6790d7de2393c7cd863
     <p><strong>Experience Platform</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Experience Platform文档</a></li>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html"> 平台发行说明</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/release-notes/latest.html"> 平台发行说明</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html"> Debugger</a></li>
