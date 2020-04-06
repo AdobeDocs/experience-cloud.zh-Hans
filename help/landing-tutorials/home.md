@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 教程
 description: 所有 Experience Cloud 教程和学习指南的链接
 translation-type: tm+mt
-source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
+source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
 
 * [Target 学习教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
 * [在网站中使用推荐](https://docs.adobe.com/content/help/en/target-learn/recommendations-in-a-website/overview.html)
-* [Adobe与Adobe Mobile Services SDK v4 for Android目标](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html)
+* [Adobe与Adobe Mobile Services SDK v4 for Android目标](https://docs.adobe.com/content/help/zh-Hans/target-learn/mobile-sdk-v4-android/overview.html)
 
 ## Audience Manager
 
@@ -52,15 +52,15 @@ source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
 
 可通过在产品中单击任何页面顶部的“帮助”图标 (?) 来访问 Advertising Cloud 帮助。
 
-* [Advertising Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+* [Advertising Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html#adcloud)
 
 ## 其他资源
 
-> [!MORELIKETHIS]
+>[!MORELIKETHIS]
 >
->* [Experience Cloud 文档](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
->* [Experience Cloud 学习与支持](https://helpx.adobe.com/support/experience-cloud.html)
->* [Experience League](https://experienceleague.adobe.com/)
+>* [Experience Cloud 文档](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/user-guides/home.html)
+>* [Experience Cloud 学习与支持](https://helpx.adobe.com/cn/support/experience-cloud.html)
+>* [Experience League](https://experienceleague.adobe.com/cn)
 >* [社区论坛](https://forums.adobe.com/community/experience-cloud/)
->* [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+>* [Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)
 
