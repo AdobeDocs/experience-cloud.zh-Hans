@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Cloud 教程
 description: 所有 Experience Cloud 教程和学习指南的链接
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 
 ---
@@ -16,8 +16,8 @@ source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 ## Target
 
 * [Target 学习教程](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
-* [在网站中使用推荐](https://docs.adobe.com/content/help/en/target-learn/recommendations-in-a-website/overview.html)
-* [Adobe与Adobe Mobile Services SDK v4 for Android目标](https://docs.adobe.com/content/help/zh-Hans/target-learn/mobile-sdk-v4-android/overview.html)
+* [在网站中使用 Recommendations](https://docs.adobe.com/content/help/zh-Hans/target-learn/recommendations-in-a-website/overview.html)
+* [带有适用于 Android 的 Adobe Mobile Services SDK v4 的 Adobe Target](https://docs.adobe.com/content/help/zh-Hans/target-learn/mobile-sdk-v4-android/overview.html)
 
 ## Audience Manager
 
@@ -26,17 +26,17 @@ source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 ## 核心服务和平台服务
 
 * [核心服务学习教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [平台视频教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
-* [平台教程](https://docs.adobe.com/content/help/en/experience-platform/tutorials/home.html)
-* [Launch 实施指南](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
-* [在移动设备 iOS Swift 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-* [在移动设备 iOS Objective-C 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [在移动设备 Android 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html)
+* [Platform 视频教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
+* [Platform 教程](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/home.html)
+* [Launch 实施指南](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-websites-with-launch/index.html)
+* [在移动设备 iOS Swift 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [在移动设备 iOS Objective-C 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [在移动设备 Android 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html)
 
 ## Campaign
 
-* [Campaign Classic 学习教程](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html)
-* [Campaign Standard 学习教程](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html)
+* [Campaign Classic 学习教程](https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/tutorials/overview.html)
+* [Campaign Standard 学习教程](https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/overview.html)
 
 ## Adobe Experience Manager
 
