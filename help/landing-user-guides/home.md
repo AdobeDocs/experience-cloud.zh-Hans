@@ -1,8 +1,8 @@
 ---
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
-translation-type: ht
-source-git-commit: 388544382efef6d42129c48f1d14cb78a58e6ff4
+translation-type: tm+mt
+source-git-commit: d718636d9c81bc6166bbe72f998b106f4a9efee0
 
 ---
 
@@ -299,12 +299,14 @@ source-git-commit: 388544382efef6d42129c48f1d14cb78a58e6ff4
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/programming/home.html"> Primetime 编程指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/drm/home.html"> Primetime 数字版权管理</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/video-playback/home.html"> Primetime 视频播放</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/ad-insertion/home.html"> Primetime 广告插入</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/migration/home.html"> Primetime 迁移指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/primetime/release-notes/home.html"> Primetime 发行说明</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/primetime/programming/home.html"> Primetime 编程指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/primetime/migration/home.html"> Primetime迁移和转化指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/primetime/reference-implementation/home.html"> Primetime参考实施</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/primetime/ad-insertion/home.html"> Primetime动态广告插入</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/primetime/drm/home.html"> Primetime 数字版权管理</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/primetime/reference/api-references.html"> Primetime API参考</a></li>
+      <li><a href="https://helpx.adobe.com/primetime/archives.html"> Primetime存档文档</a></li>
     </ul>
   </td>
   <td>
