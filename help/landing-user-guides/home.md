@@ -2,7 +2,7 @@
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 translation-type: tm+mt
-source-git-commit: d5c08d95c032b642d1510a02ed859049fc3149d1
+source-git-commit: 16d9ff51e0d0a99f6f87981dbd84fe44453962f3
 
 ---
 
@@ -16,8 +16,10 @@ source-git-commit: d5c08d95c032b642d1510a02ed859049fc3149d1
 >[!NOTE]
 >
 >在本页上使用“搜索”功能仅限于一小组内容。 我们建议您转到特定用户指南(如分析或目标)以搜索该区域。 我们将通过即将转向Experience League来改进搜索功能。
->
->要查看Experience League上分阶段的文档预览，请参 [阅关于转到Experience League](/help/landing-user-guides/experience-league-preview.md) （进行中）。
+
+<!--
+To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
+-->
 
 ## 发行说明
 
