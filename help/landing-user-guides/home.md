@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16d9ff51e0d0a99f6f87981dbd84fe44453962f3
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 16d9ff51e0d0a99f6f87981dbd84fe44453962f3
 
 >[!NOTE]
 >
->在本页上使用“搜索”功能仅限于一小组内容。 我们建议您转到特定用户指南(如分析或目标)以搜索该区域。 我们将通过即将转向Experience League来改进搜索功能。
+>本页面上的“搜索”功能仅对一小部分内容适用。我们建议您转到特定用户指南（如 Analytics 或 Target）以搜索该区域。我们即将通过迁移到 Experience League 来改进搜索功能。
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
@@ -233,7 +233,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html"> Experience Cloud ID Service 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html"> Mobile Services 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> Mobile Services v4 SDK</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html"> 设备协作指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html"> Device Co-op 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html"> Dynamic Tag Management 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Places Service（以前称为 Location Service）</a></li>
