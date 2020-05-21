@@ -1,8 +1,11 @@
 ---
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16d9ff51e0d0a99f6f87981dbd84fe44453962f3
+workflow-type: tm+mt
+source-wordcount: '1290'
+ht-degree: 100%
 
 ---
 
