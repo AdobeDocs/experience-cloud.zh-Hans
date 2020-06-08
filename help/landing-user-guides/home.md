@@ -18,7 +18,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->为了在迁移文档内容时获得最佳搜索体验，我们建议浏览以下产品部分并在指南级别进行搜索
+>为了在迁移文档内容时获得最佳搜索体验，我们建议浏览以下产品部分并在指南级别进行搜索。
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
