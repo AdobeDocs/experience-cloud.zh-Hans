@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->为了在迁移文档内容时获得最佳搜索体验，我们建议浏览以下产品部分并在指南级别进行搜索。
+>为了在迁移文档内容时获得最佳搜索体验，我们建议您浏览以下产品部分并在指南级别进行搜索。
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
@@ -411,7 +411,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html"> Software Distribution</a></li>
+      <li><a href="https://docs.adobe.com/content/help/zh-Hans/experience-cloud/software-distribution/home.html"> Software Distribution</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html"> Search&amp;Promote</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/livefyre/using/home.html"> Livefyre 用户指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/livefyre/implementation/home.html"> Livefyre 实施指南</a></li>
