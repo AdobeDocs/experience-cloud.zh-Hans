@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 </tbody>
 </table>
 
-## Experience Cloud接口、管理和实施
+## Experience Cloud 界面、管理和实施
 
 <table>
 <thead>
@@ -231,7 +231,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html"> Experience Cloud界面</a></li>
+      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html"> Experience Cloud 界面</a></li>
       <li><a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html"> 管理控制台</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html"> Experience Cloud ID Service 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html"> Mobile Services 指南</a></li>
