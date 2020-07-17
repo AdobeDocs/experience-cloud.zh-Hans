@@ -1,11 +1,11 @@
 ---
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1acfc2c352199022f1bd6c9d043ccc6714c6148b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1291'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/analytics/integration/home.html"> 集成指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html"> Media Analytics 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Data Workbench 指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> 客户历程分析</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
     </ul>
   </td>
   <td>
@@ -132,7 +132,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-classic-learn/tutorials/overview.html"> Campaign Classic 教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Campaign Classic 教程</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/campaign-standard-learn/tutorials/overview.html"> Campaign Standard 教程</a></li>
     </ul>
   </td>
@@ -232,7 +232,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html"> Experience Cloud 界面</a></li>
-      <li><a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html"> 管理控制台</a></li>
+      <li><a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html"> Admin Console</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html"> Experience Cloud ID Service 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html"> Mobile Services 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> Mobile Services v4 SDK</a></li>
@@ -245,10 +245,10 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html"> 核心服务教程</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-websites-with-launch/index.html"> Launch 实施指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html"> 在移动设备 iOS Swift 应用程序中实施 Experience Cloud</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html"> 在移动设备 iOS Objective-C 应用程序中实施 Experience Cloud</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html"> 在移动设备 Android 应用程序中实施 Experience Cloud</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Launch 实施指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html"> 在移动设备 iOS Swift 应用程序中实施 Experience Cloud</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html"> 在移动设备 iOS Objective-C 应用程序中实施 Experience Cloud</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html"> 在移动设备 Android 应用程序中实施 Experience Cloud</a></li>
     </ul>
   </td>
 </tr>
@@ -274,11 +274,11 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html"> Debugger</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/debugger/using-v2/experience-cloud-debugger.html"> 调试器v2（测试版）</a></li>
+      <li><a href="https://docs.adobe.com/content/help/zh-Hans/debugger/using-v2/experience-cloud-debugger.html"> Debugger v2（测试版）</a></li>
     </ul>
     <p><strong>由 Experience Platform 提供支持的应用程序服务</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> 客户历程分析</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/overview.html"> 实时客户数据平台指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/journeys/using/journey-orchestration-home.html"> Journey Orchestration 用户指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Places Service</a></li>
@@ -288,10 +288,10 @@ To see a preview of our documentation staged on Experience League, see [About Mo
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Experience Platform 视频教程</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/home.html"> Experience Platform 教程</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-websites-with-launch/index.html"> Launch 实施指南</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Launch 实施指南</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> Experience Platform 开发人员 API</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/experience-platform/edge/home.html"> Experience Platform Web SDK</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/platform-learn/tutorials/journey-orchestration/introduction.html"> Journey Orchestration 教程</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Journey Orchestration 教程</a></li>
     </ul>
   </td>
 </tr>
