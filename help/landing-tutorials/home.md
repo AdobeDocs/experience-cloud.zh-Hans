@@ -1,8 +1,11 @@
 ---
 title: Adobe Experience Cloud 教程
 description: 所有 Experience Cloud 教程和学习指南的链接
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 * [Platform 教程](https://docs.adobe.com/content/help/zh-Hans/experience-platform/tutorials/home.html)
 * [Launch 实施指南](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-websites-with-launch/index.html)
 * [在移动设备 iOS Swift 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-* [在移动设备 iOS Objective-C 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [在 Mobile iOS Objective-C 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [在移动设备 Android 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html)
 
 ## Campaign
