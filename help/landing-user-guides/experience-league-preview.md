@@ -1,8 +1,11 @@
 ---
 title: 关于迁移到 Experience League
 description: 本页面介绍了迁移到 Experience League 的相关信息，还包含指向分阶段用户指南的链接列表。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d5c08d95c032b642d1510a02ed859049fc3149d1
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 100%
 
 ---
 
