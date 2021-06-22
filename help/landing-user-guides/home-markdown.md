@@ -1,11 +1,10 @@
 ---
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
-translation-type: tm+mt
-source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
+source-git-commit: fd3086f279572ccc2b61db1c6902ef7f7ab9591f
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -56,13 +55,13 @@ ht-degree: 100%
 
 | 用户指南 | 教程和开发 |
 |--- |--- |
-| <ul><li>[实时客户数据平台指南](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/overview.html)</li><li>[Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)</li><li>[Auditor](https://docs.adobe.com/content/help/en/auditor/using/overview.html)</li><li>[Debugger](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)</li></ul> | <ul><li>[Experience Platform 教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)</li><li>[Launch 实施指南](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-websites-with-launch/index.html)</li><li>[Experience Platform 开发人员 API](https://www.adobe.io/apis/experienceplatform/home/)</li><li>[Experience Platform Web SDK](https://www.adobe.io/apis/experienceplatform/home/services/web-sdk.html)</li></ul> |
+| <ul><li>[实时客户数据平台指南](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/overview.html)</li><li>[Launch](https://docs.adobe.com/content/help/en/launch/using/home.html)</li><li>[Auditor](https://docs.adobe.com/content/help/en/auditor/using/overview.html)</li><li>[Debugger](https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html)</li></ul> | <ul><li>[Experience Platform 教程](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)</li><li>[Launch 实施指南](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-websites-with-launch/index.html)</li><li>[Experience Platform 开发人员 API](https://www.adobe.io/apis/experienceplatform/home/)</li><li>[Experience Platform Web SDK](https://www.adobe.io/apis/experienceplatform/home/services/web-sdk.html)</li></ul> |
 
 ## ![图标](/help/assets/experience-cloud.png) 管理、实施和核心服务
 
 | 用户指南 | 教程 |
 |--- |--- |
-| <ul><li>[管理控制台](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)</li><li>[核心服务界面](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)</li><li>[ECID 服务指南](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)</li><li>[Mobile Services v4 SDK](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)</li><li>[设备协作指南](https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html)</li><li>[Launch](https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html)</li><li>[DTM 指南](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)</li></ul> | <ul><li>[核心服务教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)</li><li>[Launch 实施指南](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-websites-with-launch/index.html)</li><li>[在移动设备 iOS Swift 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)</li><li>[在 Mobile iOS Objective-C 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)</li><li>[在 Mobile Android 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)</li></ul> |
+| <ul><li>[管理控制台](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)</li><li>[核心服务界面](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/experience-cloud.html)</li><li>[ECID 服务指南](https://docs.adobe.com/content/help/en/id-service/using/home.html)</li><li>[Mobile Services v4 SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)</li><li>[设备协作指南](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)</li><li>[Launch](https://docs.adobe.com/content/help/en/launch/using/home.html)</li><li>[DTM 指南](https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html)</li></ul> | <ul><li>[核心服务教程](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)</li><li>[Launch 实施指南](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)</li><li>[在移动设备 iOS Swift 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)</li><li>[在 Mobile iOS Objective-C 应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)</li><li>[在 Android 移动设备应用程序中实施 Experience Cloud](https://docs.adobe.com/content/help/zh-Hans/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)</li></ul> |
 
 ## ![图标](/help/assets/experience-cloud.png) Location Service
 
