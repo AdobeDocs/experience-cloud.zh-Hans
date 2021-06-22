@@ -2,11 +2,10 @@
 title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 exl-id: fef60cd5-62e1-48cb-9779-af3944951c62
-translation-type: ht
-source-git-commit: e98b6985c8e24e56e021422f8e32cad0d823d440
-workflow-type: ht
+source-git-commit: fd3086f279572ccc2b61db1c6902ef7f7ab9591f
+workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -237,7 +236,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html"> Mobile Services 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> Mobile Services v4 SDK</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/device-co-op/using/home.html"> Device Co-op 指南</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html"> Experience Platform Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/launch/using/home.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/dtm/using/dtm-home.translate.html"> Dynamic Tag Management 指南</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Places Service（以前称为 Location Service）</a></li>
     </ul>
@@ -271,7 +270,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
     <ul>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/experience-platform/landing/home.html"> Experience Platform 文档</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/experience-platform/release-notes/latest.html"> Platform 发行说明</a></li>
-      <li><a href="https://docs.adobe.com/content/help/zh-Hans/launch/using/overview.translate.html"> Experience Platform Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/launch/using/home.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/debugger/using/experience-cloud-debugger.html"> Debugger</a></li>
       <li><a href="https://docs.adobe.com/content/help/zh-Hans/debugger/using-v2/experience-cloud-debugger.html"> Debugger v2（测试版）</a></li>
