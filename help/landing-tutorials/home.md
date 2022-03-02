@@ -3,9 +3,9 @@ title: Adobe Experience Cloud 教程
 description: 所有 Experience Cloud 教程和学习指南的链接
 exl-id: 4e92dc16-553f-4dda-9705-c33b99c0b8f3
 source-git-commit: 80a329ad610ee4c1806c97680dc5e15ec5e7aeb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 62%
 ## Target
 
 * [Target 学习教程](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=en)
-* [使用Recommendations](https://experienceleague.adobe.com/docs/target-learn/tutorials/recommendations/use-recommendations-offers.html)
+* [使用 Recommendations](https://experienceleague.adobe.com/docs/target-learn/tutorials/recommendations/use-recommendations-offers.html)
 * [带有适用于 Android 的 Adobe Mobile Services SDK v4 的 Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/mobile/overview.html)
 
 ## Audience Manager
@@ -27,7 +27,7 @@ ht-degree: 62%
 
 ## 核心服务和平台服务
 
-* [核心服务学习教程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=zh-Hans)
+* [核心服务学习教程](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
 * [Platform 视频教程](https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html?lang=en)
 * [Platform 教程](https://experienceleague.adobe.com/docs/experience-platform/tutorials/home.html?lang=en)
 * [Launch 实施指南](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/index.html?lang=en)
@@ -54,7 +54,7 @@ ht-degree: 62%
 
 可通过在产品中单击任何页面顶部的“帮助”图标 (?) 来访问 Advertising Cloud 帮助。
 
-* [Advertising Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)
+* [Advertising Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
 
 ## 其他资源
 
