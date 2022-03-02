@@ -3,9 +3,9 @@ title: Adobe Experience Cloud 文档
 description: 本页面包含所有 Adobe Experience Cloud 文档以及支持用户指南和教程的完整列表。
 exl-id: fef60cd5-62e1-48cb-9779-af3944951c62
 source-git-commit: 80a329ad610ee4c1806c97680dc5e15ec5e7aeb0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1283'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans"> 发行说明指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en"> 发行说明指南</a></li>
     </ul>
   </td>
   <td>
@@ -58,9 +58,9 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans">Analytics 主要指南</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=zh-Hans"> Analytics 工具指南</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/analytics/admin/home.html?lang=zh-Hans"> 管理指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics.html?lang=en">Analytics 主要指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=en"> Analytics 工具指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/analytics/admin/home.html?lang=en"> 管理指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics/components/home.html?lang=en"> 组件指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=en"> 导出指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/analytics/implementation/home.html?lang=en"> 实施指南</a></li>
@@ -125,8 +125,8 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=zh-Hans"> Campaign Standard</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=zh-Hans"> Campaign Classic</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=en"> Campaign Standard</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=en"> Campaign Classic</a></li>
     </ul>
   </td>
   <td>
@@ -178,13 +178,13 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <p><strong>AEM as a Cloud Service </strong></p>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=zh-Hans"> AEM as a Cloud Service 用户指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=en"> AEM as a Cloud Service 用户指南</a></li>
     </ul>
     <p><strong>AEM 版本</strong></p>
     <ul>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=en"> AEM 6.5 用户指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-64/user-guide/home.html?lang=en"> AEM 6.4 用户指南</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=zh-Hans"> 早期 AEM 版本的用户指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html"> 早期 AEM 版本的用户指南</a></li>
     </ul>
     <p><strong>其他 AEM 指南</strong></p>
     <ul>
@@ -192,8 +192,8 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-screens/using/about-guide.html?lang=en"> AEM Screens 最佳实践指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=en"> AEM HTL</a></li></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=en"> AEM Dispatcher</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=zh-Hans"> AEM Cloud Manager</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=zh-Hans"> AEM 核心组件</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=en"> AEM Cloud Manager</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html?lang=en"> AEM 核心组件</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html?lang=en"> AEM 桌面应用程序</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en"> AEM Brand Portal</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/aem-forms-automated-conversion-service/using/introduction.html?lang=en"> AEM Forms 自动转换服务</a></li>
@@ -209,7 +209,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=en"> AEM Sites 教程</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=en"> AEM Sites WKND 教程</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/assets/overview.html?lang=en"> AEM Foundation 教程</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/overview.html?lang=en"> AEM Dispatcher Cache 教程</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/dispatcher-tutorial/overview.html?lang=en"> AEM Dispatcher 缓存教程</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-with-aem-headless/overview.html?lang=en"> AEM Headless 教程</a></li>
     </ul>
   </td>
@@ -230,13 +230,13 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=zh-Hans"> Experience Cloud 界面</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=en"> Experience Cloud 界面</a></li>
       <li><a href="https://helpx.adobe.com/cn/enterprise/using/admin-console.html"> Admin Console</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans"> Experience Cloud ID Service 指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en"> Experience Cloud ID 服务指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en"> Mobile Services 指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en"> Mobile Services v4 SDK</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en"> Device Co-op 指南</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=zh-Hans"> Experience Platform Launch</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en"> Experience Platform Launch</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en"> Dynamic Tag Management 指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/places/using/home.html?lang=en"> Places Service（以前称为 Location Service）</a></li>
     </ul>
@@ -268,18 +268,18 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <p><strong>Experience Platform</strong></p>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=zh-Hans"> Experience Platform 文档</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=zh-Hans"> Platform 发行说明</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en"> Experience Platform 文档</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en"> Platform 发行说明</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en"> Experience Platform Launch</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=zh-Hans"> Auditor</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hans"> 调试器</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/debugger/using-v2/experience-cloud-debugger.html?lang=zh-cn"> Debugger v2（测试版）</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en"> Auditor</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Debugger</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/debugger/using-v2/experience-cloud-debugger.html?lang=en"> Debugger v2（测试版）</a></li>
     </ul>
     <p><strong>由 Experience Platform 提供支持的应用程序服务</strong></p>
     <ul>
       <li><a href="https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=en"> Customer Journey Analytics</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en"> 实时客户数据平台指南</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=zh-Hans"> Journey Orchestration 用户指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en"> Real-time Customer Data Platform 指南</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=en"> Journey Orchestration 用户指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/places/using/home.html?lang=en"> Places Service</a></li>
     </ul>
   </td>
@@ -289,8 +289,8 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://experienceleague.adobe.com/docs/platform-learn/tutorials/overview.html?lang=en"> Experience Platform 教程</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=en"> Launch 实施指南</a></li>
       <li><a href="https://developer.adobe.com/experience-platform-apis/"> Experience Platform 开发人员 API</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hans"> Experience Platform Web SDK</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=zh-Hans"> Journey Orchestration 教程</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=en"> Experience Platform Web SDK</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html?lang=en"> Journey Orchestration 教程</a></li>
     </ul>
   </td>
 </tr>
@@ -310,12 +310,12 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=zh-Hans"> Primetime 发行说明</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/primetime/release-notes/home.html?lang=en"> Primetime 发行说明</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/primetime/programming/home.html?lang=en"> Primetime 编程指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/primetime/migration/home.html?lang=en"> Primetime 迁移和转换指南</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/primetime/reference-implementation/home.html?lang=en"> Primetime 参考实施</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/primetime/ad-insertion/home.html?lang=en"> Primetime 动态广告插入</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/primetime/drm/home.html?lang=en"> Primetime 数字版权管理</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/primetime/ad-insertion/home.html?lang=en"> Primetime Dynamic Ad Insertion</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/primetime/drm/home.html?lang=en"> Primetime Digital Rights Management</a></li>
       <li><a href="https://experienceleague.adobe.com/docs/primetime/reference/api-references.html?lang=en"> Primetime API 参考</a></li>
       <li><a href="https://helpx.adobe.com/cn/primetime/archives.html"> Primetime 存档文档</a></li>
     </ul>
@@ -342,7 +342,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <ul>
       <li><a href="https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en"> Advertising Cloud 发行说明</a></li>
-      <li><a href="https://experienceleague.adobe.com/docs/advertising-cloud.html"> Advertising Cloud 学习与支持</a></li>
+      <li><a href="https://experienceleague.adobe.com/docs/advertising-cloud.html"> Advertising Cloud 学习和支持</a></li>
     </ul>
   </td>
   <td>
