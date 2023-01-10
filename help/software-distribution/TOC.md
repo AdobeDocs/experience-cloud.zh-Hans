@@ -9,6 +9,6 @@ ht-degree: 100%
 ---
 
 
-# Experience CloudSoftware Distribution {#software-distribution}
+# Experience Cloud Software Distribution {#software-distribution}
 
-+ [Experience CloudSoftware Distribution](home.md)
++ [Experience Cloud Software Distribution](home.md)
