@@ -1,16 +1,16 @@
 ---
-user-guide-title: Adobe可投放性服务管理
-user-guide-description: Adobe可投放性服务
-breadcrumb-title: Adobe可投放性服务
+user-guide-title: Adobe Deliverability Service 管理
+user-guide-description: Adobe Deliverability Service
+breadcrumb-title: Adobe Deliverability Service
 solution: Experience Cloud
 hide: true
 source-git-commit: 58d7982b28ec82c34076e52afd0a0edfc9bfd90f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# Adobe可投放性服务 {#deliverability-server}
+# Adobe Deliverability Service {#deliverability-server}
 
 * [主页](home.md)
