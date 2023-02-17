@@ -1,15 +1,15 @@
 ---
-title: Adobe可投放性服务管理器
-description: 了解Adobe可交付性服务
+title: Adobe Deliverability Service 管理器
+description: 探索 Adobe Deliverability Services
 hide: true
 source-git-commit: 58d7982b28ec82c34076e52afd0a0edfc9bfd90f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Adobe可投放性服务 {#deliv-home}
+# Adobe Deliverability Services {#deliv-home}
 
 探索新触发器 UI 并了解如何使用它。
 
