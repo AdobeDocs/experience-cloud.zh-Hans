@@ -5,13 +5,13 @@ breadcrumb-title: Adobe Deliverability Service
 solution: Experience Cloud
 hide: true
 source-git-commit: 3eb95ed738d053cc1250e66a28a00f26506f530d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '17'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Adobe Deliverability Service {#deliverability-server}
 
 * [主页](home.md)
-* [全局抑制列表](global-suppression-list.md)
+* [全局禁止列表](global-suppression-list.md)
