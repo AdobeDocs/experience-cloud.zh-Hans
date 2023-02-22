@@ -4,16 +4,16 @@ description: 探索 Adobe Deliverability Services
 hide: true
 exl-id: 31ea97e7-b0a0-4a92-bc69-a458fdbc1d7c
 source-git-commit: b5436d4e713f2f358a86f039820072225d1686f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Adobe Deliverability Services {#deliv-home}
 
-可投放性顾问和运营团队必须执行多个活动，以帮助客户提高其电子邮件可投放性。 在对所有可投放性功能进行分析后发现，虽然大多数功能都可以直接供客户访问，但有些功能应仅限于Adobe可投放性团队。 为了向客户提供更快、更好的投放能力服务，我们决定创建基于UI的投放能力应用程序，该应用程序将作为可投放性团队的一站式解决方案。 使用此应用程序，可交付性团队将能够向客户历程管理系列(如Journey Optimizer、Campaign和Marketo)中多个产品的客户提供其服务。
+投递顾问和运营团队必须执行多项活动以帮助客户改善电子邮件投递。在分析所有投递功能后发现，虽然可将大多数功能直接供客户使用，但某些功能应仅供 Adobe 投递团队使用。为了向客户提供更快速且更优质的投递服务，我们决定创建一个基于 UI 的投递应用程序，它将充当投递团队的一站式解决方案。投递团队使用此应用程序即可为客户历程管理系列中多个产品（如 Journey Optimizer、Campaign 和 Marketo）的客户提供其服务。
 
-当前提供以下功能：
+当前有以下功能可用：
 
-**全局抑制列表**  — 此功能不会向客户公开，不会用于查看，也不会用于任何更新。 但是，需要手动（由可交付性团队）和自动（由第三方供应商）持续监控和更新列表：Blackbox)。 [了解详情](global-suppression-list.md)
+**全局禁止列表** - 此功能不向客户公开，既无法查看，也无法进行任何更新。但是，需要持续手动（由投递团队）和自动（由第三方供应商 Blackbox）监控和更新该列表。[了解详情](global-suppression-list.md)
