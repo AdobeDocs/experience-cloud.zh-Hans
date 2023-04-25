@@ -1,18 +1,18 @@
 ---
 title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
-hide: true
-hidefromtoc: true
-source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 98%
 
 ---
 
-# 触发器概述 {#overview}
+# 关于Experience Cloud触发器 {#overview}
 
 Experience Cloud Triggers 触发器提供一种识别、定义和监控重要消费者行为的综合解决方案。通过这些触发器，可产生应用程序间通信以重新吸引访客，形成更加个性化和吸引人的用户体验。
+
+
 可在实时决策和个性化中使用触发器，例如：
 
 * 为放弃购物车或删除产品后放弃购物车配置快速再营销活动，有助于提高转化率和收入。
