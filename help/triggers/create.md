@@ -1,11 +1,13 @@
 ---
 title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
+hide: true
+hidefromtoc: true
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: f5b706e57d187d57d63aa9b468c8b35c2653c446
+source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '484'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 创建触发器并配置触发器的条件。例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
 
-1. 在Experience Cloud中，选择解决方案切换器菜单，然后 **[!UICONTROL 触发器]**.
+1. 在 Experience Cloud 中，选择解决方案切换器菜单，然后选择&#x200B;**[!UICONTROL “触发器”]**。
 
    ![](assets/triggers_7.png)
 
@@ -37,7 +39,7 @@ ht-degree: 0%
 
 1. 选择用于此触发器的 Analytics **[!UICONTROL 报表包]**。此设置标识要使用的报表数据。
 
-   [了解有关报表包的更多信息](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html){target="_blank"}.
+   [详细了解报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html){target="_blank"}。
 
 1. 选择&#x200B;]**无操作多久后触发**[!UICONTROL &#x200B;有效期。
 
