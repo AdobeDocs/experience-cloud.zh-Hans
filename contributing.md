@@ -1,6 +1,8 @@
 ---
 source-git-commit: ec724d95b7d0f0a72119c745fb124192863a9aee
-translation-type: tm+mt
+workflow-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 # 参与
@@ -19,5 +21,5 @@ translation-type: tm+mt
 
 ## 代码审阅
 
-应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/articles/about-pull-requests/)。
+应以拉取请求的形式提交所有提交，并需要由项目提交者进行审阅。有关发送拉取请求的更多信息，请阅读 [GitHub 的拉取请求文档](https://help.github.com/cn/github/collaborating-with-issues-and-pull-requests/about-pull-requests)。
 
