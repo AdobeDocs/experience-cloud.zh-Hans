@@ -2,20 +2,24 @@
 title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: 3edbf7991e19d524ce5284a0cdd46676b9640062
+source-git-commit: 9cdff509e07f1e01b6c6a403288093998e5db152
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 95%
 
 ---
 
 # 创建 Experience Cloud 触发器 {#create-triggers}
 
+>[!AVAILABILITY]
+>
+>Adobe Experience Cloud Triggers新用户界面正在逐步向所有客户推出。 有关更多信息，请与您的Adobe代表联系。
+
+创建触发器并配置触发器的条件。例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
+
 >[!NOTE]
 >
 > Experience Cloud 触发器的新用户界面提供一种直观的体验以管理消费者行为并使用户体验个性化。要切换回以前的界面，请单击&#x200B;**[!UICONTROL 转到经典模式]**&#x200B;按钮。
-
-创建触发器并配置触发器的条件。例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
 
 1. 在 Experience Cloud 中，选择解决方案切换器菜单，然后选择&#x200B;**[!UICONTROL “触发器”]**。
 
