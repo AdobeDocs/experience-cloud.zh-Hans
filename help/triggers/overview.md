@@ -3,9 +3,9 @@ title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
 exl-id: 2c8f58aa-cade-46c1-beaa-cfe7720e4e90
 source-git-commit: 9cdff509e07f1e01b6c6a403288093998e5db152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '294'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Adobe Experience Cloud Triggers新用户界面正在逐步向所有客户推出。 有关更多信息，请与您的Adobe代表联系。
+>Adobe Experience Cloud 触发器新用户界面逐渐向所有客户推出。有关更多信息，请与您的 Adobe 代表联系。
 
 Experience Cloud Triggers 触发器提供一种识别、定义和监控重要消费者行为的综合解决方案。通过这些触发器，可产生应用程序间通信以重新吸引访客，形成更加个性化和吸引人的用户体验。
 
