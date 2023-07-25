@@ -3,9 +3,9 @@ title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
    每个容器在点击级别单独处理，即如果用 **[!UICONTROL And]** 运算符连接两个容器，则只有当两次点击满足要求时，规则才符合要求。
 
-1. 从 **[!UICONTROL 元数据]** 字段，请单击 **[!UICONTROL +Dimension]** 选择与访客行为相关的特定营销活动维度或变量。
+1. 从&#x200B;**[!UICONTROL 元数据]**&#x200B;字段中，单击 **[!UICONTROL + 维度]**&#x200B;以选择特定的 Campaign 维度或与访客行为相关的变量。
 
    ![](assets/triggers_3.png)
 
