@@ -4,8 +4,7 @@ description: 了解有关如何使用API更新用户档案的更多信息
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%

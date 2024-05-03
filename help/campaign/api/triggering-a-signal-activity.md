@@ -7,8 +7,7 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
