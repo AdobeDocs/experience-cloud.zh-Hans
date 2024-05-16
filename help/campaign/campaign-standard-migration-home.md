@@ -2,15 +2,15 @@
 title: Adobe Campaign Web用户界面
 description: 发现Adobe Campaign Web用户界面
 badge: label="有限可用性" type="Informative" url="campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: d63ad47dc2fc7836956234d812001b06172d06a4
+exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
+source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
-
-# Campaign Standard过渡到Campaign v8 {#triggers-home}
+# 从 Campaign Standard 过渡至 Campaign v8 {#triggers-home}
 
 作为过渡到Campaign v8的Campaign Standard用户，您现在可以从新版本的Adobe Campaign Web用户界面和功能强大的v8控制台中受益。 过渡没有任何效果，将允许您使用所有旨在简化个性化跨渠道活动创建的直观功能。 Campaign Web用户界面还通过Adobe Experience Platform提供了连接的画布，以实现统一体验。
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 * 与Adobe Experience Platform集成
 * 一致的用户界面和体验
 
-有关主要功能和概念差异的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/rn/acs-migration.html).
+有关主要功能和概念差异的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/release-notes/acs-migration).
 
 ## 新增功能
 
