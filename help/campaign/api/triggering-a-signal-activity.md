@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -16,9 +17,9 @@ ht-degree: 2%
 
 # 触发信号活动 {#triggering-a-signal-activity}
 
-在Adobe Campaign Standard工作流中，可以有一个或多个 **外部信号** 活动。 这些活动是等待触发的“侦听器”。
+在Adobe Campaign Standard工作流中，可以有一个或多个&#x200B;**外部信号**&#x200B;活动。 这些活动是等待触发的“侦听器”。
 
-Campaign StandardAPI允许您触发 **外部信号** 用于调用工作流的活动。 API调用可以包含将被摄取到工作流的事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
+Campaign StandardAPI允许您触发&#x200B;**外部信号**&#x200B;活动以调用工作流。 API调用可以包含将被摄取到工作流的事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
 
 >[!NOTE]
 >
@@ -26,13 +27,13 @@ Campaign StandardAPI允许您触发 **外部信号** 用于调用工作流的活
 
 要触发工作流，请执行以下步骤：
 
-1. 执行 **GET** 请求检索外部信号活动触发器URL。
+1. 对工作流执行&#x200B;**GET**&#x200B;请求以检索外部信号活动触发器URL。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 执行 **POST** 请求，以触发信号活动，并使用 **&quot;source&quot;** 参数相同的过期时间。 此属性是必需的，它允许您指定触发请求源。
+1. 对返回的URL执行&#x200B;**POST**&#x200B;请求以触发信号活动，有效负载中包含&#x200B;**&quot;source&quot;**&#x200B;参数。 此属性是必需的，它允许您指定触发请求源。
 
-如果要使用参数调用工作流，请使用将它们添加到有效负载中 **&quot;parameters&quot;** 属性。 语法由参数名称及其值组成(支持以下类型： **字符串**， **数字**， **布尔型** 和 **日期/时间**)。
+如果要使用参数调用工作流，请将其添加到具有&#x200B;**&quot;parameters&quot;**&#x200B;属性的有效负载中。 语法由参数名称及其值组成（支持以下类型：**字符串**、**数字**、**布尔值**&#x200B;和&#x200B;**日期/时间**）。
 
 ```
   -X POST <TRIGGER_URL>
@@ -55,7 +56,7 @@ Campaign StandardAPI允许您触发 **外部信号** 用于调用工作流的活
 
 >[!NOTE]
 >
->将参数添加到有效负载时，请确保其 **name** 和 **type** 值与外部信号活动中声明的信息一致。 此外，有效负载大小不应超过64Ko。
+>向有效负载添加参数时，请确保其&#x200B;**name**&#x200B;和&#x200B;**type**&#x200B;值与External signal活动中声明的信息一致。 此外，有效负载大小不应超过64Ko。
 
 <br/>
 

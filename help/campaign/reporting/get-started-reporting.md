@@ -4,7 +4,8 @@ description: 在内建或自定义的动态报告中，分析促销活动成功�
 audience: end-user
 level: Beginner
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 11%
@@ -19,9 +20,9 @@ ht-degree: 11%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-使用动态报告 **拖放界面**，您可以浏览数据，确定电子邮件营销活动如何针对最重要的客户细分执行，并从单一位置衡量其对收件人的影响。
+通过动态报告&#x200B;**拖放界面**，您可以浏览数据，确定电子邮件促销活动针对最重要的客户细分执行情况，并从单一位置衡量其对收件人的影响。
 
-**管理您的动态报告** 借助各种功能：实时刷新数据、打印报告或将其导出为CSV文件。
+**借助多种功能管理您的动态报告**：实时刷新数据、打印报告或将其导出为CSV文件。
 
 了解更多：
 
@@ -32,9 +33,9 @@ ht-degree: 11%
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Adobe Campaign Web用户界面提供了一组 **现成可用的动态报告** 允许您从多个方面衡量营销活动：跳出次数、被宣布为垃圾邮件或垃圾邮件最多的投放、收件人查看的投放次数最多、与渠道相关的报表、投放吞吐量和跟踪报表……
+Adobe Campaign Web用户界面提供了一组&#x200B;**随时可用的动态报表**，可让您从多个方面衡量营销活动：退回次数、被宣布为垃圾邮件或垃圾邮件最多的投放、收件人查看次数最多的投放、与渠道相关的报表、投放吞吐量和跟踪报表……
 
-**组合不同的组件** （维度、量度和区段、时间段）以构建您自己的报表或个性化现成报表。
+**组合不同的组件**（维度、量度和区段、时间段）以构建您自己的报表或个性化现成报表。
 
 了解更多：
 
@@ -46,13 +47,12 @@ Adobe Campaign Web用户界面提供了一组 **现成可用的动态报告** �
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**自定义您的报表** 利用动态报告设计功能：根据需要添加任意数量的组件（面板和自由格式表），使用可用的量度和维度分析数据。
+**利用动态报表设计功能自定义您的报表**：根据需要添加任意数量的组件（面板和自由格式表），以便使用可用的量度和维度分析您的数据。
 
-拖放 **可视化项** 以向报表中添加数据的图形表示形式，并根据需要进行配置。
+拖放&#x200B;**可视化项**&#x200B;以向报表中添加数据的图形表示形式，并根据需要配置它们。
 
 了解更多：
 
 * [添加面板](adding-panels.md)
 * [添加可视化](adding-visualizations.md)
 * [添加组件](adding-components.md)
-

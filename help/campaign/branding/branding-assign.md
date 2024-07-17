@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 51abadc86b97097d13824651d8c50d4ddd014a51
+exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 18%
@@ -31,23 +32,23 @@ ht-degree: 18%
 
 要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
 
-创建模板后，您可以将其链接到品牌。请按以下步骤执行此操作：
+创建模板后，您可以将其链接到品牌。操作步骤：
 
-1. 浏览至 **[!UICONTROL 资源]** `>` **[!UICONTROL 模板]** `>` **[!UICONTROL 投放模板]** 在Adobe Campaign explorer中。
+1. 在Adobe Campaign资源管理器中浏览到&#x200B;**[!UICONTROL 资源]** `>` **[!UICONTROL 模板]** `>` **[!UICONTROL 投放模板]**。
 
 1. 选择投放模板或复制现有模板。
 
    ![](assets/branding_assign_V8_1.png)
 
-1. 访问 **[!UICONTROL 属性]** 所选投放模板的。
+1. 访问所选投放模板的&#x200B;**[!UICONTROL 属性]**。
 
    ![](assets/branding_assign_V8_2.png)
 
-1. 从 **[!UICONTROL 常规]** 选项卡，从中选择您的品牌 **[!UICONTROL 品牌化]** 下拉菜单。
+1. 从&#x200B;**[!UICONTROL 常规]**&#x200B;选项卡，从&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉列表中选择您的品牌。
 
    ![](assets/branding_assign_V8_3.png)
 
-1. 配置完毕后，选择 **确定**.
+1. 配置完毕后，选择&#x200B;**确定**。
 
 您现在可以使用此模板发送投放。
 
@@ -55,17 +56,17 @@ ht-degree: 18%
 
 要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
 
-创建模板后，您可以将其链接到品牌。请按以下步骤执行此操作：
+创建模板后，您可以将其链接到品牌。操作步骤：
 
-1. 浏览至 **[!UICONTROL 模板]** 选项卡，从 **[!UICONTROL 投放]** ，然后选择投放模板。
+1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单浏览到&#x200B;**[!UICONTROL 模板]**&#x200B;选项卡，然后选择投放模板。
 
    ![](assets/branding_assign_web_1.png)
 
-1. 单击 **[!UICONTROL 设置]**.
+1. 单击&#x200B;**[!UICONTROL 设置]**。
 
    ![](assets/branding_assign_web_2.png)
 
-1. 从 **[!UICONTROL 投放]** 选项卡，访问 **[!UICONTROL 品牌化]** 字段，然后选择要链接到模板的品牌。
+1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡中，访问&#x200B;**[!UICONTROL 品牌]**&#x200B;字段并选择要链接到模板的品牌。
 
    ![](assets/branding_assign_web_3.png)
 
@@ -83,31 +84,31 @@ ht-degree: 18%
 
 要创建新的独立投放，请执行以下步骤。
 
-1. 要创建新投放，请浏览至 **[!UICONTROL 营销活动]** 选项卡。
+1. 要创建新投放，请浏览到&#x200B;**[!UICONTROL 营销活动]**&#x200B;选项卡。
 
-1. 单击 **[!UICONTROL 投放]** 然后单击 **[!UICONTROL 创建]** 按钮来指定现有投放列表的上方。
+1. 单击&#x200B;**[!UICONTROL 投放]**，然后单击现有投放列表上方的&#x200B;**[!UICONTROL 创建]**&#x200B;按钮。
 
    ![](assets/branding_assign_V8_4.png)
 
 1. 选择投放模板。
 
-1. 访问 **[!UICONTROL 属性]** 所选投放模板的。
+1. 访问所选投放模板的&#x200B;**[!UICONTROL 属性]**。
 
    ![](assets/branding_assign_V8_5.png)
 
-1. 从 **[!UICONTROL 常规]** 选项卡，从中选择您的品牌 **[!UICONTROL 品牌化]** 下拉菜单。
+1. 从&#x200B;**[!UICONTROL 常规]**&#x200B;选项卡，从&#x200B;**[!UICONTROL 品牌]**&#x200B;下拉列表中选择您的品牌。
 
    ![](assets/branding_assign_V8_6.png)
 
-1. 配置完毕后，选择 **确定**.
+1. 配置完毕后，选择&#x200B;**确定**。
 
-1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅 [设计和发送电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) 部分。
+1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email)部分。
 
 >[!TAB Adobe Campaign Web]
 
 要创建新的独立投放，请执行以下步骤。
 
-1. 浏览至 **[!UICONTROL 投放]** 菜单，然后单击 **[!UICONTROL 创建投放]** 按钮。
+1. 浏览到左边栏上的&#x200B;**[!UICONTROL 投放]**&#x200B;菜单，然后单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮。
 
    ![](assets/branding_assign_web_4.png)
 
@@ -115,11 +116,11 @@ ht-degree: 18%
 
 1. 单击&#x200B;**[!UICONTROL 创建投放]**&#x200B;按钮以进行确认。
 
-1. 从 **[!UICONTROL 属性]** 页面，单击 **[!UICONTROL 设置]**.
+1. 从&#x200B;**[!UICONTROL 属性]**&#x200B;页面，单击&#x200B;**[!UICONTROL 设置]**。
 
    ![](assets/branding_assign_web_5.png)
 
-1. 从 **[!UICONTROL 投放]** 选项卡，访问 **[!UICONTROL 品牌化]** 字段。
+1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;选项卡，访问&#x200B;**[!UICONTROL 品牌]**&#x200B;字段。
 
    ![](assets/branding_assign_web_6.png)
 
@@ -127,6 +128,6 @@ ht-degree: 18%
 
    ![](assets/branding_assign_web_7.png)
 
-1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅 [创建您的第一封电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) 部分。
+1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[创建您的第一个电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email)部分。
 
 >[!ENDTABS]

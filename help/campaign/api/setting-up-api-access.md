@@ -11,21 +11,21 @@ exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 18979fea28f4f3adce1139293203a59876831313
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
 # 设置 API 访问 {#setting-up-api-access}
 
-Adobe Campaign Standard API访问可通过以下步骤进行设置。 有关每个步骤的详情，请参见 [Adobe Developer文档](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Developer文档](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)中详细介绍了这些步骤。
 
 >[!IMPORTANT]
 >
->在中管理证书 [Adobe Developer](https://developer.adobe.com/)，确保您拥有 **系统管理员** 对组织或机构的权限 [开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html) 在Admin Console中。
+>若要在[Adobe Developer](https://developer.adobe.com/)中管理证书，请确保您对该组织具有&#x200B;**系统管理员**&#x200B;权限，或者在Admin Console中具有[开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。
 
 1. **检查您是否拥有数字证书**，或在必要时创建一个。在以下步骤中需要随证书一起提供的公钥和私钥。
-1. **创建与Adobe Campaign服务的新集成** 在 [Adobe Developer](https://developer.adobe.com/) 并进行配置。 随后将生成您的证书（API 密钥、客户端密钥等）。
-1. **创建OAuth服务器到服务器** 通过遵循以下操作获得凭据 [实施步骤](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **在[Adobe Developer](https://developer.adobe.com/)中创建与Adobe Campaign服务**&#x200B;的新集成并进行配置。 随后将生成您的证书（API 密钥、客户端密钥等）。
+1. **按照以下[实施步骤创建OAuth服务器到服务器**&#x200B;凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -44,14 +44,14 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 有关每�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**：这是您的个人组织ID，Adobe会为您每个实例提供一个组织ID：
+* **&lt;组织>**：这是您的个人组织ID，Adobe会为您每个实例提供一个组织ID：
 
-   * &lt;organization> ：您的生产实例，
-   * &lt;organization-mkt-stage>：您的暂存实例。
+   * &lt;ORGANIZATION> ：您的生产实例，
+   * &lt;ORGANIZATION-mkt-stage>：您的阶段实例。
 
-  要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到Adobe I/O中(请参阅 <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer文档</a>)。
+  要获取“ORGANIZATION ID”值，请咨询管理员或 Adobe 技术联系人。您还可以在创建新集成时，在许可证列表中将其检索到Adobe I/O(请参阅<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer文档</a>)。
 
-* **&lt;access_token>**：您的个人访问令牌，在通过POST请求交换您的JSON Web令牌时检索。
+* **&lt;ACCESS_TOKEN>**：通过POST请求交换您的JSON Web令牌时检索到了您的个人访问令牌。
 
 * **&lt;API_KEY>**：您的个人 API 密钥。在创建了与Adobe Campaign服务的新集成后，可在Adobe I/O中提供。
 

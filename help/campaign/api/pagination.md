@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -18,13 +19,13 @@ ht-degree: 1%
 
 默认情况下，一个列表中加载25个资源。
 
-此 **_lineCount** 参数允许您限制响应中列出的资源数。  然后，您可以使用 **下一个** 节点，显示下一个结果。
+**_lineCount**&#x200B;参数允许您限制响应中列出的资源数。  然后，可以使用&#x200B;**next**&#x200B;节点显示下一个结果。
 
 >[!NOTE]
 >
->始终使用返回的URL值 **下一个** 节点，以执行分页请求。
+>始终使用&#x200B;**next**&#x200B;节点中返回的URL值执行分页请求。
 >
->此 **_lineStart** 计算请求后，必须始终在 **下一个** 节点。
+>已计算&#x200B;**_lineStart**&#x200B;请求，必须始终在&#x200B;**next**&#x200B;节点中返回的URL中使用。
 
 <br/>
 
@@ -40,7 +41,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-对请求的响应，使用 **下一个** 节点以执行分页。
+响应请求，使用&#x200B;**next**&#x200B;节点执行分页。
 
 ```
 {
@@ -61,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-默认情况下， **下一个** 在与具有大量数据的表交互时，节点不可用。 为了能够执行分页，您必须添加 **_forcePagination=true** 参数到调用URL。
+默认情况下，在与具有大量数据的表交互时，**next**&#x200B;节点不可用。 若要执行分页，必须将&#x200B;**_forcePagination=true**&#x200B;参数添加到调用URL中。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -73,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->在Campaign Standard中定义了一个表，超过该表被视为大型的记录数 **XtkBigTableThreshold** 选项。 默认值为100,000条记录。
+>在Campaign Standard **XtkBigTableThreshold**&#x200B;选项中定义了表被视为大于此值的记录数。 默认值为100,000条记录。

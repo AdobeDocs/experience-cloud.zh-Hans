@@ -4,7 +4,8 @@ description: 报告的时段允许您根据选定的日期过滤数据。
 audience: end-user
 level: Intermediate
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%

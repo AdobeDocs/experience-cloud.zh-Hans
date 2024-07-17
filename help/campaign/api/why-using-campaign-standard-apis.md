@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +21,7 @@ Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成�
 
 注册或选择退出页面等公共网站需要连接到后端系统以存储配置文件信息。 像Adobe Campaign这样的后端系统灵活而强大，能够将配置文件数据摄取到其中并对其执行自定义操作。
 
-下面给出了一些示例：
+以下是一些示例：
 
 * 潜在客户在线注册。
 * 现有的客户个人资料和营销通信偏好管理。
@@ -51,19 +52,19 @@ Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成�
 >
 >我们的示例使用Postman。 但是，请随意使用您最喜爱的REST客户端。
 
-1. 通过单击下载JSON收藏集 [此处](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. 单击[此处](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip)下载JSON收藏集。
 
-1. 打开Postman，然后选择 **文件** / **导入** 菜单。
+1. 打开Postman，然后选择&#x200B;**文件** / **导入**&#x200B;菜单。
 
 1. 将下载的文件拖放到窗口中。 预先设计的API请求显示，可供使用。
 
    ![替换文本](assets/postman_collection.png)
 
-1. 选择 **创建用户档案** ，然后更新POST请求和 **标题** 制表符(&lt;organization>， &lt;api_key>， &lt;access_token>)。 有关详细信息，请参阅[此部分](setting-up-api-access.md)。
+1. 选择&#x200B;**创建配置文件**&#x200B;请求，然后使用您自己的信息(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新POST请求和&#x200B;**标头**&#x200B;选项卡。 有关详细信息，请参阅[此部分](setting-up-api-access.md)。
 
    ![替换文本](assets/postman_uc1.png)
 
-1. 填写 **正文** 选项卡，选择要添加到新配置文件的信息，然后单击 **发送** 按钮以执行请求。
+1. 在&#x200B;**正文**&#x200B;选项卡中填写要添加到新配置文件中的信息，然后单击&#x200B;**发送**&#x200B;按钮以执行请求。
 
    ![替换文本](assets/postman_uc2.png)
 

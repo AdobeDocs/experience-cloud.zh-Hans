@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 ## 检索过滤器元数据
 
-每个资源都可以使用过滤器。 要确定与资源关联的筛选器，需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的更多信息，请参阅 [本节](metadata-mechanism.md).
+每个资源都可以使用过滤器。 要确定与资源关联的筛选器，需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的详细信息，请参阅[此章节](metadata-mechanism.md)。
 
 要识别过滤器的元数据并确定其使用方式，必须对之前返回的URL执行GET请求。
 
@@ -65,10 +66,10 @@ ht-degree: 0%
 
 每个过滤器都可以使用相同的元数据结构：
 
-* 此 **@formType** 和 **@webPage** 字段是技术字段。
-* 此 **数据** 字段提供了如何使用过滤器的示例。
-* 此 **元数据** 节点描述过滤器参数。
-* 此 **条件** 节点描述过滤器的用途。 元数据节点中描述的过滤器参数用于创建过滤器条件。 对于每个筛选条件，如果 **enabledIf** 是真的， **表达式** 将被应用。
+* **@formType**&#x200B;和&#x200B;**@webPage**&#x200B;字段是技术字段。
+* **data**&#x200B;字段提供了如何使用过滤器的示例。
+* **元数据**&#x200B;节点描述了筛选器参数。
+* **条件**&#x200B;节点描述了筛选器的用途。 元数据节点中描述的过滤器参数用于创建过滤器条件。 对于每个筛选条件，如果&#x200B;**enabledIf**&#x200B;为true，将应用&#x200B;**expr**。
 
 <br/>
 
@@ -132,7 +133,8 @@ ht-degree: 0%
   }
   ```
 
-* 用于检索电子邮件或姓氏字段中包含“Doe”的“profile”资源的示例GET请求（byText过滤器会搜索电子邮件和姓氏字段）。
+* 用于检索中包含“Doe”的“profile”资源的示例GET请求
+电子邮件或姓氏字段（byText过滤器会搜索电子邮件和姓氏字段）。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -200,8 +202,8 @@ ht-degree: 0%
 
 有关更多信息，请参阅Campaign Standard文档：
 
-* [配置过滤器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [用例：使用复合标识键调用资源](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [正在配置筛选器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [用例：使用复合标识键](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)调用资源。
 
 <br/>
 

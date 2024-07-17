@@ -4,7 +4,8 @@ description: 使用每个量度公式的列表了解报表的结果。
 level: Intermediate
 audience: end-user
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 031d5b692d9b9e4420b14ba1ab892fbafed57ec0
+exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 1%
@@ -27,7 +28,7 @@ ht-degree: 1%
    <th> <strong>标签</strong> <br/> </th> 
    <th> <strong>字段名称</strong> <br/> </th> 
    <th> <strong>指标计算公式</strong> <br/> </th> 
-   <th> <strong>评论</strong><br/> </th> 
+   <th> <strong>个评论</strong><br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -38,7 +39,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 在阻止列表<br/> </td> 
+   <td> 在阻止列表<br/>上 </td> 
    <td> @blacklisted<br/> </td> 
    <td> count(@failureReason=8， @failureType=2)<br/> </td> 
    <td> </td> 
@@ -47,7 +48,7 @@ ht-degree: 1%
    <td> 阻止列表率<br/> </td> 
    <td> @rateBlacklisted<br/> </td> 
    <td> @blacklisted/@sent<br/> </td> 
-   <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br/> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+跳出）。<br/> </td> 
   </tr> 
   <tr> 
    <td> 退回+错误<br/> </td> 
@@ -56,7 +57,7 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 跳出+错误率<br/> </td> 
+   <td> 退回+错误率<br/> </td> 
    <td> @rateBounces<br/> </td> 
    <td> @bounces/@sent<br/> </td> 
    <td> </td> 
@@ -80,10 +81,10 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 投放率<br/> </td> 
+   <td> 传递率<br/> </td> 
    <td> @rateDelivered<br/> </td> 
    <td> @delivered/@sent<br/> </td> 
-   <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br/> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+跳出）。<br/> </td> 
   </tr> 
   <tr> 
    <td> 硬退回<br/> </td> 
@@ -95,10 +96,10 @@ ht-degree: 1%
    <td> 硬退回率<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
-   <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br/> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+跳出）。<br/> </td> 
   </tr> 
   <tr> 
-   <td> 无效域<br/> </td> 
+   <td> 域<br/>无效 </td> 
    <td> @invalidDomain<br/> </td> 
    <td> count(@failureReason=2)<br/> </td> 
    <td> </td> 
@@ -130,7 +131,7 @@ ht-degree: 1%
   <tr> 
    <td> 打开<br/> </td> 
    <td> @uniqueOpens<br/> </td> 
-   <td> count(@trackingUrlType=2 +唯一(@trackingUrlType=1,2，3,6，10,11) — 唯一(@trackingUrlType=2))<br/> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2，3,6，10,11) - unique(@trackingUrlType=2))<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -149,10 +150,10 @@ ht-degree: 1%
    <td> 隔离率<br/> </td> 
    <td> @rateQuarantine<br/> </td> 
    <td> @quarantine/@sent<br/> </td> 
-   <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br/> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+跳出）。<br/> </td> 
   </tr>
   <tr> 
-   <td> 被拒绝<br/> </td> 
+   <td> 已拒绝<br/> </td> 
    <td> @rejected<br/> </td> 
    <td> count(@failureReason=20， @failureType=2)<br/> </td> 
    <td> </td> 
@@ -161,7 +162,7 @@ ht-degree: 1%
    <td> 拒绝率<br/> </td> 
    <td> @rateRejected<br/> </td> 
    <td> @rejected/@sent<br/> </td> 
-   <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br/> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+跳出）。<br/> </td> 
   </tr> 
   <tr> 
    <td> 已处理/已发送<br/> </td> 
@@ -179,7 +180,7 @@ ht-degree: 1%
    <td> 软退回率<br/> </td> 
    <td> @rateSoftBounces<br/> </td> 
    <td> @softBounces/@sent<br/> </td> 
-   <td> 费率计算的分母基于发送计数（已投放+跳出次数）。<br/> </td> 
+   <td> 费率计算的分母基于已发送计数（已发送+跳出）。<br/> </td> 
   </tr> 
   <tr> 
    <td> 独特点击<br/> </td> 
@@ -188,13 +189,13 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 独特打开次数<br/> </td> 
+   <td> 唯一打开次数<br/> </td> 
    <td> @uniqueopens<br/> </td> 
    <td> 唯一(@trackingUrlType=1,2，3,6，10,11)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 不可到达 <br/> </td> 
+   <td> 无法访问<br/> </td> 
    <td> @unreachable<br/> </td> 
    <td> count(@failureReason=3)<br/> </td> 
    <td> </td> 

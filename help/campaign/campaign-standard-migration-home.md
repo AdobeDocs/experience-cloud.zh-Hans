@@ -21,11 +21,11 @@ ht-degree: 10%
 * 与Adobe Experience Platform集成
 * 一致的用户界面和体验
 
-有关主要功能和概念差异的更多信息，请参阅 [此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+有关主要功能和概念差异的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration)。
 
 ## 新增功能
 
-大致了解提供的所有特性和功能 [Campaign Web用户界面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/campaign-web-home) 和 [Campaign v8](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home).
+大致了解[Campaign Web用户界面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/campaign-web-home)和[Campaign v8](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)提供的所有功能和特性。
 
 为了让您能够无缝过渡，我们添加了从Campaign Standard到v8的关键功能：
 
@@ -37,7 +37,7 @@ ht-degree: 10%
 
 [![image](assets/do-not-localize/learn-more-button.svg)](reporting/get-started-reporting.md)
 
->[!TAB 集中化品牌化]
+>[!TAB 集中品牌]
 
 您的技术管理员现在可以定义一个或多个品牌，以集中处理影响品牌识别的参数。
 

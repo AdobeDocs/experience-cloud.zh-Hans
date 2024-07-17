@@ -3,8 +3,8 @@ title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
-workflow-type: ht
-source-wordcount: '505'
+workflow-type: tm+mt
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    ![](assets/triggers_2.png)
 
-1. 单击&#x200B;**[!UICONTROL 容器]**&#x200B;以建立和保存定义触发器的规则、条件或筛选器。要使事件同时发生，您应该将其置于同一容器中。
+1. 单击&#x200B;**[!UICONTROL 容器]**&#x200B;以建立和保存定义触发器的规则、条件或过滤器。要使事件同时发生，您应该将其置于同一容器中。
 
    每个容器在点击级别单独处理，即如果用 **[!UICONTROL And]** 运算符连接两个容器，则只有当两次点击满足要求时，规则才符合要求。
 

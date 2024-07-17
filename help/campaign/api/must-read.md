@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -30,17 +31,17 @@ ht-degree: 0%
 
 ## 资源表示
 
-所有API资源均可在 **JSON** URL扩展名或HTTP接受标头内部：
+所有API资源都可在&#x200B;**JSON**&#x200B;中使用，扩展名为URL，或位于HTTP接受标头内：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->若在URL中没有扩展名， **json格式是默认格式** （对于内容类型）。
+>在URL中没有扩展名，**json格式是内容类型的默认格式**。
 
 <br/>
 
-***请求示例***
+***请求样本***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 * 绝不能将Adobe Campaign生成的自动主键值存储到外部数据库或网站中。 您必须在数据库定义中生成特定的键字段，并在开发过程中使用它。
 
-## 自定义键 {#custom-keys}
+## 自定义密匙 {#custom-keys}
 
 如果用户档案资源已通过自定义键字段扩展，则可以使用此字段作为键，而不是Adobe Campaign生成的自动主键：
 
@@ -66,7 +67,7 @@ ht-degree: 0%
 
 如果密钥值与原始密钥不同，或者您将自己的业务密钥用作URI而不是Adobe提供的业务密钥，则无法使用PATCH操作修改自定义密钥。
 
-使用自定义键 **顶级配置文件资源** 仅限。 URL由API返回，绝不应该自行构建。
+仅对&#x200B;**顶层配置文件资源**&#x200B;使用自定义键。 URL由API返回，绝不应该自行构建。
 
 <br/>
 

@@ -5,7 +5,7 @@ hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 source-git-commit: b66e2525694c771ebb7ac5190b7259ef5658d81a
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ ht-degree: 100%
 
 可能的状态是：
 
-* **[!UICONTROL 待定]**：正在处理文件上传。
+* **[!UICONTROL 待处理]**：正在处理文件上传。
 * **[!UICONTROL 错误]**：由于技术问题或文件格式错误，文件上传过程失败。
 * **[!UICONTROL 完成]**：成功完成了文件上传过程。
 

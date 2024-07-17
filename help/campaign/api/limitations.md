@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 1%
@@ -27,7 +28,7 @@ ht-degree: 1%
 
 ### 租户ID
 
-迁移后，对于任何未来的集成，建议使用 **Campaign v8租户ID** 在REST URL中，替换以前的Campaign Standard租户ID。
+迁移后，对于任何未来的集成，建议在REST URL中使用您的&#x200B;**Campaign v8租户ID**，替换您以前的Campaign Standard租户ID。
 
 ### 密钥用法
 
@@ -44,7 +45,7 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 >[!AVAILABILITY]
 >
->目前， **事务性消息** REST API不可用。
+>目前，**事务性消息** REST API不可用。
 >
 >下面列出的REST API已弃用，无法使用：
 >* 营销历史记录
@@ -53,7 +54,7 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 ## 筛选
 
-* 要在REST API负载中使用筛选器，您需要在Campaign v8中编辑这些筛选器，并提供要在负载中使用的名称。 为此，请从以下位置访问过滤器的其他参数： **[!UICONTROL 参数]** 选项卡，并在中提供所需的名称 **[!UICONTROL REST API中的筛选器名称]** 字段。
+* 要在REST API负载中使用筛选器，您需要在Campaign v8中编辑这些筛选器，并提供要在负载中使用的名称。 为此，请从&#x200B;**[!UICONTROL 参数]**&#x200B;选项卡访问筛选器的其他参数，并在REST API的&#x200B;**[!UICONTROL 筛选器名称]**&#x200B;字段中提供所需的名称。
 
   ![](assets/api-filtering.png)
 
@@ -104,7 +105,7 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 以下部分列出了Campaign Standard与Campaign v8错误代码和消息之间的差异。
 
-| 场景 | Campaign Standard | Campaign v8 |
+| 方案 | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
 | 在请求正文中使用无效的PKey | 500 — “O5iRp40EGA”属性未知(请参阅“Profiles (nms：recipient)”架构的定义)。 XTK-170036无法解析表达式“@id = @O5iRp40EGA”。 | 404 — 无法解密PKey。 (PKey=@jksad) |
 | 在URI中使用无效的PKey | 500 — “O5iRp40EGA”属性未知(请参阅“Profiles (nms：recipient)”架构的定义)。 XTK-170036无法解析表达式“@id = @O5iRp40EGA”。 | 404 — 无法解密PKey。 (PKey=@jksad)不支持的端点。 (endpoint=rest/profileAndServices/profile/@jksad) |
@@ -113,13 +114,13 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 | 在URI中使用不存在的原始ID | 404 - RST-360011发生错误 — 请联系您的管理员。 无法从键“adobe_nl：0”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 | 404 — 无法从键“adobe_nl”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 |
 | 在请求正文中使用不存在的原始ID | 404 - RST-360011发生错误 — 请联系您的管理员。 无法从键“adobe_nl”中找到路径为“Service”的文档（架构为“service”且名称为“adobe_nl”的文档） | 404 — 无法从键“adobe_nl”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 |
 | - | 500 - RST-360011发生错误 — 请联系您的管理员。 | 500 — 发生错误 — 请联系您的管理员。 |
-| 插入具有无效性别（或任何）枚举值的配置文件/服务 | 500 - RST-360011发生错误 — 请联系您的管理员。 值“invalid”对于“nms”无效:recipient:“@gender”字段的gender”明细列表 | 500 — 发生错误 — 请联系您的管理员。 |
+| 插入具有无效性别（或任何）枚举值的配置文件/服务 | 500 - RST-360011发生错误 — 请联系您的管理员。 值“invalid”对于“@gender”字段的“nms:recipient:gender”枚举无效 | 500 — 发生错误 — 请联系您的管理员。 |
 
 ## 个人资料 — 时区
 
-对于Campaign Standard，时区显示为的JSON响应的一部分 **profileAndService/profile** REST API调用。
+对于Campaign Standard，时区显示为&#x200B;**profileAndServices/profile** REST API调用的JSON响应的一部分。
 
-使用Campaign v8时，时区仅作为的一部分显示给用户 **profileAndServiceExt/profile** REST API调用。 它不是的一部分 **profileAndService/profile** REST API调用，因为它被添加到扩展模式中。
+使用Campaign v8时，时区仅作为&#x200B;**profileAndServicesExt/profile** REST API调用的一部分显示给用户。 它不是&#x200B;**profileAndServices/profile** REST API调用的一部分，因为它被添加到扩展架构中。
 
 ## 工作流 — 外部信号触发
 

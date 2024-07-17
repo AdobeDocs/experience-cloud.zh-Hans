@@ -4,7 +4,8 @@ description: 通过取消订阅的现成报告，了解客户取消订阅您的�
 level: Intermediate
 audience: end-user
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 15%
@@ -17,4 +18,4 @@ ht-degree: 15%
 
 ![](assets/delivery_reports_unsub.png)
 
-此 **[!UICONTROL 前5项投放]** 表格和图形可显示消息数量及已取消订阅收件人数量排名前五的交付内容。 此处列出的数据基于对消息退订链接的点击次数。
+**[!UICONTROL 前5个投放]**&#x200B;表和图形显示前五个投放的消息数和已取消订阅的收件人数最多。 此处列出的数据基于对消息退订链接的点击次数。

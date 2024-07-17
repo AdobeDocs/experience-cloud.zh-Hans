@@ -4,7 +4,8 @@ description: 了解如何使用API检索订阅
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->REST API返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL发出后续API请求</b>.
+>REST API返回“href”属性，该属性包含要使用的URL。 <b>始终使用响应中包含的URL发出后续API请求</b>。
 
 <br/>
 

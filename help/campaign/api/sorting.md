@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 10%
@@ -16,7 +17,7 @@ ht-degree: 10%
 
 # 排序
 
-默认情况下，排序以升序方式提供。 要按降序排序，请附加 **%20desc** 到 **顺序(_O)** 参数的值。
+默认情况下，排序以升序方式提供。 要按降序排序，请将&#x200B;**%20desc**&#x200B;附加到&#x200B;**_order**&#x200B;参数的值。
 
 要了解某个字段是否可以排序，请将“可排序”参数检查到资源元数据中。 有关详细信息，请参阅[此部分](metadata-mechanism.md)。
 

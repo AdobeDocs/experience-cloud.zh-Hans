@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # API疑难解答 {#troubleshooting}
 
-* **在转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅适用于企业帐户的选定成员。 如果您认为您应该拥有访问权限，请联系您的系统管理员。”**
+* **在转到Adobe.io控制台时，您会收到以下错误：“Adobe I/O控制台仅适用于企业帐户的选定成员。 如果您认为您应该拥有访问权限，请联系您的系统管理员。&quot;**
 
 您只能为您所管理的组织创建API密钥。 如果显示此消息并且您希望创建API密钥，并且您希望询问组织的管理员之一。
 
-* **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;：&quot;403023&quot;，&quot;message&quot;：&quot;Profile is not valid&quot;}**
+* **向Adobe.io发出请求时，您收到{&quot;error_code&quot;：&quot;403023&quot;，&quot;message&quot;：&quot;Profile is not valid&quot;}**
 
 这意味着您的特定Campaign产品的IMS配置存在问题：IMS团队需要修复该问题。
 
@@ -73,17 +73,17 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您会收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。”}**
+* **向Adobe.io发出请求时，您收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
 
 Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 
-* **向Adobe.io发出请求时，您会收到{&quot;error_code&quot;：&quot;401013&quot;，&quot;message&quot;：&quot;Oauth令牌无效&quot;}**
+* **向Adobe.io发出请求时，您收到{&quot;error_code&quot;：&quot;401013&quot;，&quot;message&quot;：&quot;Oauth令牌无效&quot;}**
 
 您的令牌无效（用于生成令牌的IMS调用不正确）或您的令牌已过期。
 
-* **创建后看不到我的配置文件**
+* **创建后看不到我的个人资料**
 
-根据实例配置，创建的配置文件需要关联到 **orgUnit**. 要了解如何在创建时添加此字段，请参阅 [本节](creating-profiles-api.md).
+根据实例配置，创建的配置文件需要关联到&#x200B;**orgUnit**。 若要了解如何在创建时添加此字段，请参阅[此章节](creating-profiles-api.md)。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
