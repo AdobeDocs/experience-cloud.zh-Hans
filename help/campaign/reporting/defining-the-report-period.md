@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # 定义报告周期{#defining-the-report-period}
+
+>[!NOTE]
+>
+>提供过去13个月的数据报表。 有关数据保留期的更多信息，请联系Adobe顾问或您的技术管理员。
 
 在启动或访问报表之前，必须应用时间段。 可以在报告的右上角访问给定的时间段。
 
