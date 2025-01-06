@@ -3,10 +3,10 @@ title: Adobe Campaign Web用户界面
 description: 发现Adobe Campaign Web用户界面
 badge: label="有限可用性" type="Informative" url="campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
+source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 10%
 * 与Adobe Experience Platform集成
 * 一致的用户界面和体验
 
-有关主要功能和概念差异的更多信息，请参阅[此页面](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration)。
+有关主要功能和概念差异的更多信息，请参阅[此页面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/start/acs-migration)。
 
 ## 新增功能
 
@@ -35,13 +35,13 @@ ht-degree: 10%
 
 您可以访问动态报告，其中提供完全可自定义的实时报告以衡量营销活动的影响。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](reporting/get-started-reporting.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](reporting/get-started-reporting.md)
 
 >[!TAB 集中品牌]
 
 您的技术管理员现在可以定义一个或多个品牌，以集中处理影响品牌识别的参数。
 
-[![image](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
+[![图像](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
 
 >[!TAB Rest API]
 
@@ -79,3 +79,4 @@ ht-degree: 10%
     <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
+
