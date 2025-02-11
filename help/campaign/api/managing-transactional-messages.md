@@ -4,20 +4,22 @@ description: 了解如何使用API管理事务性消息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-hidefromtoc: true
-hide: true
 role: Data Engineer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # 管理事务型消息 {#managing-transactional-messages}
+
+>[!AVAILABILITY]
+>
+>目前，使用REST API的事务型消息传递仅适用于电子邮件渠道和事务型事件(扩充数据仅通过有效负荷提供，与Adobe Campaign V8的操作方式类似)。
 
 创建并发布事务型事件后，您需要将此事件的触发集成到网站中。
 
@@ -140,4 +142,3 @@ POST响应将返回创建时的事务性事件状态。 要检索其当前状态
 * **deliveryFailed**：处理事件时出现传递错误。
 * **routingFailed**：路由阶段失败 — 例如，当找不到指定的事件类型时，可能会发生这种情况。
 * **tooOld**：事件在处理之前已过期 — 这可能是由于各种原因造成的，例如，发送多次失败（这会导致事件不再最新），或者服务器在过载后无法再处理事件。
-* **targetingFailed**：Campaign Standard未能扩充用于消息定位的链接。
