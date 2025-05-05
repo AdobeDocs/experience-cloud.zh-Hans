@@ -41,7 +41,7 @@ ht-degree: 100%
 
 1. 选择用于此触发器的 Analytics **[!UICONTROL 报表包]**。此设置标识要使用的报表数据。
 
-   [详细了解报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html){target="_blank"}。
+   [详细了解报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hans){target="_blank"}。
 
 1. 选择&#x200B;]**无操作多久后触发**[!UICONTROL &#x200B;有效期。
 

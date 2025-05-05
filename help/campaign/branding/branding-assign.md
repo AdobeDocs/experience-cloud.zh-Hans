@@ -26,7 +26,7 @@ ht-degree: 18%
 
 >[!TAB Adobe Campaign V8]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/create-templates)
 
 创建模板后，您可以将其链接到品牌。操作步骤：
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 >[!TAB Adobe Campaign Web]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/delivery-template)
 
 创建模板后，您可以将其链接到品牌。操作步骤：
 
@@ -98,7 +98,7 @@ ht-degree: 18%
 
 1. 配置完毕后，选择&#x200B;**确定**。
 
-1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email)部分。
+1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/email/create-email)部分。
 
 >[!TAB Adobe Campaign Web]
 
@@ -124,6 +124,6 @@ ht-degree: 18%
 
    ![](assets/branding_assign_web_7.png)
 
-1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[创建您的第一个电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email)部分。
+1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[创建您的第一个电子邮件](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/email/create-email)部分。
 
 >[!ENDTABS]

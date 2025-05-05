@@ -28,7 +28,7 @@ ht-degree: 3%
 
    ![](assets/custom_field_1.png)
 
-1. 识别您的自定义收件人模式并将其选定。 如果尚未扩展内置nms：recipient架构，请参阅[此过程](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
+1. 识别您的自定义收件人模式并将其选定。 如果尚未扩展内置nms：recipient架构，请参阅[此过程](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
 
 1. 将自定义字段添加到架构编辑器。
 
@@ -42,7 +42,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 然后，识别您的自定义broadLogRcp架构并将其选定。 如果尚未扩展内置的投放日志架构，请参阅[此过程](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
+1. 然后，识别您的自定义broadLogRcp架构并将其选定。 如果尚未扩展内置的投放日志架构，请参阅[此过程](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
 
 1. 将与收件人架构相同的自定义字段添加到架构编辑器。
 
@@ -50,7 +50,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 要应用对架构所做的修改，请通过&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级]** > **[!UICONTROL 更新数据库结构]**&#x200B;启动数据库更新向导，并运行更新数据库结构。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. 要应用对架构所做的修改，请通过&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级]** > **[!UICONTROL 更新数据库结构]**&#x200B;启动数据库更新向导，并运行更新数据库结构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 
