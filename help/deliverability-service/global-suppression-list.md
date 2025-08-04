@@ -4,9 +4,9 @@ description: 了解全局禁止列表
 hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 source-git-commit: 9d12eece2ca9f8f36951f8575bb0ac42bc10a728
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。例如，可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表。
+   >在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。可在[此页面](https://zh.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。
 
@@ -81,7 +81,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   >在&#x200B;**备注**&#x200B;列中允许使用值为 32 至 126 的所有 ASCII 字符。例如，可在[此页面](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表。
+   >在&#x200B;**备注**&#x200B;列中允许使用值为 32 至 126 的所有 ASCII 字符。可在[此页面](https://zh.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 完成后，拖放您的 CSV 文件，然后单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。
 
