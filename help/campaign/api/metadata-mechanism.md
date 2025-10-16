@@ -32,7 +32,7 @@ ht-degree: 1%
    * &quot;resType&quot;：这是技术类型。
 
      如果“type”以值“link”或“collection”结束，则resTarget值是链接所定向资源的名称。
-如果“type”以“enumeration”值完成，则会添加“values”字段，并在**values**&#x200B;节点中详细说明每个枚举值。
+如果“type”以“enumeration”值完成，则会添加“values”字段，并在&#x200B;**values**&#x200B;节点中详细说明每个枚举值。
 
 * **筛选器**&#x200B;节点返回用于检索关联筛选器的URL。 有关筛选器的详细信息，请参阅[此部分](filtering.md)部分。
 
