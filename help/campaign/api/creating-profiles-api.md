@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >如果要将<b>orgUnit</b>关联到已创建的配置文件，则需要使用此字段扩展配置文件资源，并且在发布扩展后，对<b>ProfileAndServicesExt</b>端点执行POST请求。
 >
->有关用户档案资源扩展的更多信息，请参阅<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>。
+>有关用户档案资源扩展的更多信息，请参阅<a href="https://helpx.adobe.com/cn/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign文档</a>。
 
 <br/>
 
