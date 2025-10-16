@@ -1,11 +1,11 @@
 ---
 title: 检索订阅
 description: 了解如何使用API检索订阅
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 此过程分为两步。
 
 1. 检索所需服务的订阅URL。
-1. 对预订URL执行GET请求。 它会返回服务的订阅列表，以及每个关联的配置文件。
+1. 对订阅URL执行GET请求。 它会返回服务的订阅列表，以及每个关联的配置文件。
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ ht-degree: 0%
   },
 ```
 
-对预订URL执行GET请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -115,7 +115,7 @@ ht-degree: 0%
   }
 ```
 
-对预订URL执行GET请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

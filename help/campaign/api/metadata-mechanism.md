@@ -4,11 +4,11 @@ description: 了解有关元数据机制的更多信息。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
    * &quot;resType&quot;：这是技术类型。
 
      如果“type”以值“link”或“collection”结束，则resTarget值是链接所定向资源的名称。
-如果“type”以“enumeration”值完成，则会添加“values”字段，并在&#x200B;**values**&#x200B;节点中详细说明每个枚举值。
+如果“type”以“enumeration”值完成，则会添加“values”字段，并在**values**&#x200B;节点中详细说明每个枚举值。
 
 * **筛选器**&#x200B;节点返回用于检索关联筛选器的URL。 有关筛选器的详细信息，请参阅[此部分](filtering.md)部分。
 

@@ -4,11 +4,11 @@ description: 了解有关如何执行排序操作的更多信息
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 10%
@@ -25,7 +25,7 @@ ht-degree: 10%
 
 ***示例请求***
 
-* 用于检索数据库中按字母顺序排列的电子邮件的示例GET请求。
+* 用于检索数据库中按字母顺序排序的电子邮件的示例GET请求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -50,7 +50,7 @@ ht-degree: 10%
   }
   ```
 
-* 在数据库中以降序Alpha顺序检索电子邮件的示例GET请求。
+* 用于以降序Alpha顺序检索数据库中的电子邮件的示例GET请求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

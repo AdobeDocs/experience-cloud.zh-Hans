@@ -1,11 +1,11 @@
 ---
 title: 删除订阅
 description: 了解如何使用API删除订阅
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 此过程分为三个步骤。
 
 1. 检索所需配置文件的订阅URL。
-1. 对预订URL执行GET请求。
+1. 对订阅URL执行GET请求。
 1. 对所需的服务URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为204 No Content。
@@ -53,7 +53,7 @@ ht-degree: 0%
   }
 ```
 
-对预订URL执行GET请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -94,7 +94,7 @@ ht-degree: 0%
 此过程分为三个步骤。
 
 1. 检索所需的服务及其订阅URL。
-1. 对订阅URL执行GET请求以检索所有配置文件订阅。
+1. 对订阅URL执行GET请求以检索所有用户档案订阅。
 1. 对所需的配置文件订阅URL执行DELETE请求。
 
 如果删除请求成功，则响应状态为204 No Content。
@@ -130,7 +130,7 @@ ht-degree: 0%
 },
 ```
 
-对预订URL执行GET请求。
+对订阅URL执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \

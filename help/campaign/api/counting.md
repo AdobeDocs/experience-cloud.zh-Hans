@@ -4,11 +4,11 @@ description: 了解如何执行计数操作。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Adobe Campaign REST API可以计算请求中的记录数。 为此，请使用&#
 
 ***示例请求***
 
-若要计算&#x200B;**messageType**&#x200B;值等于“sms”的所有服务，请使用&#x200B;**byChannel**&#x200B;筛选器执行GET请求。
+要计数其&#x200B;**messageType**&#x200B;值等于“sms”的所有服务，请使用&#x200B;**byChannel**&#x200B;筛选器执行GET请求。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \

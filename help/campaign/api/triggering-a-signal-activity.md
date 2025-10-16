@@ -4,11 +4,11 @@ description: 了解如何使用API触发信号活动。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 在Adobe Campaign Standard工作流中，可以有一个或多个&#x200B;**外部信号**&#x200B;活动。 这些活动是等待触发的“侦听器”。
 
-Campaign StandardAPI允许您触发&#x200B;**外部信号**&#x200B;活动以调用工作流。 API调用可以包含将被摄取到工作流的事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
+Campaign Standard API允许您触发&#x200B;**外部信号**&#x200B;活动以调用工作流。 API调用可以包含将被摄取到工作流的事件变量中的参数（要定位的受众名称、要导入的文件名、消息内容的一部分等）。 这样，您就可以轻松地将Campaign自动化与外部系统集成。
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Campaign StandardAPI允许您触发&#x200B;**外部信号**&#x200B;活动以调�
 }
 ```
 
-要触发信号活动，请使用“source”对触发器url执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
+要触发信号活动，请使用“source”对触发器URL执行POST请求。 如果要使用参数调用工作流，请添加“参数”属性。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \

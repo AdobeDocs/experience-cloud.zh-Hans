@@ -1,12 +1,12 @@
 ---
 title: API疑难解答
-description: 详细了解与Campaign StandardAPI相关的常见问题
-role: Data Engineer
+description: 进一步了解与Campaign Standard API相关的常见问题
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 这意味着您的特定Campaign产品的IMS配置存在问题：IMS团队需要修复该问题。
 
-要获取更多详细信息，您可以使用令牌调用IMS API，以查看您的IMS配置文件是什么样的：您需要一个prodCtx，其中organization_id与您放置在URL中的相同，以便能够路由您的Adobe。
+要获取更多详细信息，您可以使用令牌调用IMS API，以查看您的IMS配置文件是什么样的：您需要一个prodCtx，其中organization_id与您放置在Adobe.io URL中的相同，以便能够路由您的请求。
 如果缺少IMS配置，则需要修复。
 
 ```
@@ -73,7 +73,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您收到{&quot;code&quot;：500，&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
 
 Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 

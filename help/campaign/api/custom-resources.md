@@ -4,11 +4,11 @@ description: 了解有关使用API进行自定义资源管理的更多信息/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -37,7 +37,7 @@ Adobe Campaign附带预定义数据模型，其中数据通过不同资源进行
 
 ***示例请求***
 
-访问扩展的profileAndServicesExt资源的示例GET请求。
+访问扩展的profileAndServicesExt资源的GET请求示例。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\

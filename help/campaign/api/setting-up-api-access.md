@@ -1,14 +1,14 @@
 ---
 title: 设置API访问
-description: 了解如何设置对Campaign StandardAPI的访问权限。
+description: 了解如何设置对Campaign Standard API的访问权限。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 18979fea28f4f3adce1139293203a59876831313
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 27%
@@ -21,11 +21,11 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
 
 >[!IMPORTANT]
 >
->若要在[Adobe Developer](https://developer.adobe.com/)中管理证书，请确保您对该组织具有&#x200B;**系统管理员**&#x200B;权限，或者在Admin Console中具有[开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。
+>要在[Adobe Developer](https://developer.adobe.com/)中管理证书，请确保您对该组织具有&#x200B;**系统管理员**&#x200B;权限，或者在Admin Console中具有[开发人员帐户](https://helpx.adobe.com/cn/enterprise/using/manage-developers.html)。
 
 1. **检查您是否拥有数字证书**，或在必要时创建一个。在以下步骤中需要随证书一起提供的公钥和私钥。
-1. **在[Adobe Developer](https://developer.adobe.com/)中创建与Adobe Campaign服务**&#x200B;的新集成并进行配置。 随后将生成您的证书（API 密钥、客户端密钥等）。
-1. **按照以下[实施步骤创建OAuth服务器到服务器**&#x200B;凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **在** Adobe Developer[中创建与Adobe Campaign服务](https://developer.adobe.com/)的新集成并进行配置。 随后将生成您的凭据（API 密钥、客户端密钥等）。
+1. **按照以下**&#x200B;实施步骤创建OAuth服务器到服务器[凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -53,7 +53,7 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
 
 * **&lt;ACCESS_TOKEN>**：通过POST请求交换您的JSON Web令牌时检索到了您的个人访问令牌。
 
-* **&lt;API_KEY>**：您的个人 API 密钥。在创建了与Adobe Campaign服务的新集成后，可在Adobe I/O中提供。
+* **&lt;API_KEY>**：您的个人 API 密钥。在创建了与Adobe I/O服务的新集成后，Adobe Campaign中会提供此服务。
 
   ![替换文本](assets/tenant.png)
 
@@ -69,4 +69,4 @@ Adobe Campaign Standard API访问可通过以下步骤进行设置。 [Adobe Dev
 ```
 
 
-请咨询您的管理员或Adobe的技术联系人，以检查CNAME参数是否正确创建。
+请咨询您的管理员或Adobe技术联系人，以检查CNAME参数是否正确创建。

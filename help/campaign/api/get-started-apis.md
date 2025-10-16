@@ -1,14 +1,14 @@
 ---
 title: Campaign REST API入门
-description: 通过将 Campaign 与一组技术建立联系，创建集成并构建您自己的生态系统。
+description: 通过将 Campaign 与一组技术建立联系，创建集成并生成您自己的生态系统。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: ea8b978d8f71942c8d034804ca269957a09a52db
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 48%
@@ -21,18 +21,18 @@ ht-degree: 48%
 >
 >本文档适用于迁移到Campaign v8的Adobe Campaign Standard客户。
 >
->在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/cn/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
+>在执行 API 调用之前，请检查与您的许可协议对应的比例限制。有关详细信息，请参见[此页面](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)。
 
 Campaign REST API旨在通过将Adobe Campaign与您使用的技术面板连接，让您&#x200B;**为Adobe Campaign创建集成**，并&#x200B;**构建您自己的生态系统**。
 
 通过Adobe Campaign REST API，您可以访问以下功能：
 
 <table><tr>
- <td valign="top"><a href="retrieving-profiles.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="retrieving-profiles.md">轮廓</a></p></td>
+ <td valign="top"><a href="retrieving-profiles.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a><p><a href="retrieving-profiles.md">用户档案</a></p></td>
 <td valign="top"><a href="creating-a-service.md"><img width="60px" alt="条件" src="assets/icon_services.svg"/></a><p><a href="creating-a-service.md">服务和订阅</a></p></td>
 <td valign="top"><a href="interacting-with-custom-resources.md"><img width="60px" alt="条件" src="assets/icon_customresources.svg"/></a><p><a href="interacting-with-custom-resources.md">自定义资源</a></p></td>
 <td valign="top"><a href="controlling-a-workflow.md"><img width="60px" alt="条件" src="assets/icon_workflows.svg"/></a><p><a href="controlling-a-workflow.md">工作流</a></p></td>
-<td valign="top"><a href="managing-transactional-messages.md"><img width="60px" alt="条件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="managing-transactional-messages.md">事务型消息传递</a></p></td>
+<td valign="top"><a href="managing-transactional-messages.md"><img width="60px" alt="条件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="managing-transactional-messages.md">交易型消息</a></p></td>
 </tr></table>
 
 要使用Campaign REST API，您需要Adobe I/O帐户。 这是前进和发现 API 功能的必备第一步。

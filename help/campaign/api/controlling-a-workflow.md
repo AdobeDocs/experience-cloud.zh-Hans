@@ -4,11 +4,11 @@ description: 了解如何使用API控制工作流。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 10%
@@ -32,7 +32,7 @@ ht-degree: 10%
 * 继续
 * 停止
 
-有关执行命令的详细信息，请参阅[Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=zh-Hans)。
+有关执行命令的详细信息，请参阅[Campaign文档](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
 
 <br/>
 

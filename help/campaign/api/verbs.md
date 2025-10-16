@@ -1,14 +1,14 @@
 ---
 title: GET/POST/PATCH/DELETE动词
-description: 进一步了解Campaign StandardAPI中使用的动词。
+description: 进一步了解Campaign Standard API中使用的动词。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ***示例请求***
 
-* 配置文件集合中的示例GET请求。
+* 配置文件集合中的GET请求示例。
 
 
   ```
@@ -66,7 +66,7 @@ ht-degree: 0%
   }
   ```
 
-* 有关特定配置文件的示例GET请求。
+* 特定配置文件上的GET请求示例。
 
 
   ```
@@ -92,7 +92,7 @@ ht-degree: 0%
   }
   ```
 
-* 创建配置文件的示例POST请求。
+* 创建用户档案的示例POST请求。
 
 
   ```
@@ -116,7 +116,7 @@ ht-degree: 0%
   }
   ```
 
-* 更新用户档案的示例PATCH请求。
+* 更新用户档案的PATCH请求示例。
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

@@ -1,11 +1,11 @@
 ---
-title: 检索用户档案
+title: 检索轮廓
 description: 了解有关如何使用API检索用户档案的更多信息
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
@@ -14,11 +14,11 @@ ht-degree: 4%
 
 # 使用API检索用户档案 {#retrieving-profiles}
 
-检索配置文件是通过&#x200B;**GET**&#x200B;请求执行的。
+检索用户档案是通过&#x200B;**GET**&#x200B;请求执行的。
 
 然后，您可以使用过滤器、排序和分页来优化搜索。 有关详细信息，请参阅[其他操作](sorting.md)部分。
 
-此外，Campaign StandardAPI允许您根据以下字段之一搜索用户档案：电子邮件、名字、姓氏或任何自定义字段。 有关详细信息，请参阅[此部分](#searching-field)。
+此外，Campaign Standard API允许您根据以下字段之一搜索用户档案：电子邮件、名字、姓氏或任何自定义字段。 有关详细信息，请参阅[此部分](#searching-field)。
 
 <br/>
 

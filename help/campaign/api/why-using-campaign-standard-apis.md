@@ -1,21 +1,21 @@
 ---
-title: 为何使用Campaign StandardAPI？
-description: 了解有关Campaign StandardAPI以及为何使用它们的更多信息。
+title: 为何使用Campaign Standard API？
+description: 详细了解Campaign Standard API以及为何使用它们。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
 
 ---
 
-# 为何使用Campaign StandardAPI {#why-using-campaign-standard-apis}
+# 为何使用Campaign Standard API {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成，实时解决现实世界中的问题。
 
@@ -40,13 +40,13 @@ Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成�
 
    ![替换文本](assets/apis_uc2.png)
 
-1. 用户档案在单击电子邮件中的“Update Details”链接后可能会更改其详细信息。 这将配置文件转到“更新您的配置文件和偏好设置详细信息”页面。 为了执行该操作，会将配置文件详细信息(Pkey)传递到Campaign服务器，并检索和表示配置文件。 一旦用户档案单击“更新”按钮，信息就会更新到系统中(通过PATCH命令)。
+1. 用户档案在单击电子邮件中的“Update Details”链接后可能会更改其详细信息。 这将配置文件转到“更新您的配置文件和偏好设置详细信息”页面。 为了执行该操作，会将配置文件详细信息(Pkey)传递到Campaign服务器，并检索和表示配置文件。 用户档案单击“更新”按钮后，信息即更新到系统中(通过PATCH命令)。
 
    ![替换文本](assets/apis_uc3.png)
 
-提供了一组请求，以帮助您熟悉Campaign StandardAPI请求。 此收藏集采用JSON格式，提供了代表常见用例的预设计API请求。
+提供了一组请求，以帮助您熟悉Campaign Standard API请求。 此收藏集采用JSON格式，提供了代表常见用例的预设计API请求。
 
-以下步骤描述了分步使用案例，用于导入和使用收藏集在Campaign Standard数据库中创建用户档案。
+以下步骤描述了分步使用案例，用于在Campaign Standard数据库中导入和使用收藏集创建用户档案。
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Adobe Campaign Standard提供了API，允许现有系统与Campaign平台集成�
 
    ![替换文本](assets/postman_collection.png)
 
-1. 选择&#x200B;**创建配置文件**&#x200B;请求，然后使用您自己的信息(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新POST请求和&#x200B;**标头**&#x200B;选项卡。 有关详细信息，请参阅[此部分](setting-up-api-access.md)。
+1. 选择&#x200B;**创建配置文件**&#x200B;请求，然后使用您自己的信息(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)更新POST请求和&#x200B;**Headers**&#x200B;选项卡。 有关详细信息，请参阅[此部分](setting-up-api-access.md)。
 
    ![替换文本](assets/postman_uc1.png)
 

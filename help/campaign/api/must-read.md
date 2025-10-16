@@ -4,11 +4,11 @@ description: 在使用API之前必须先读取。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 ## 技术要求
 
 * Adobe Campaign API必须仅用于“服务器到服务器”。
-* 如果您要实施的用例与Adobe Campaign API允许的规模一致，请始终与您的Adobe技术联系人核实。
+* 如果您要实施的用例与Adobe API允许的规模一致，请始终与您的Adobe Campaign技术联系人核实。
 * 设置AdobeIO访问需要特定权限，如果遇到任何问题，请与Adobe支持部门联系。
 
 ## 权限和访问
 
 * 默认情况下，Adobe Campaign API使用管理员上下文，因此组织单位和角色不适用。
 * Adobe Campaign API将从角色上下文中排除。
-* 如果要使用一个或多个组织单位配置API，请与联系以Adobe技术联系人。
+* 如果要使用一个或多个组织单位配置API，请先与您的Adobe技术联系人联系。
 
 ## 资源表示
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-如果密钥值与原始密钥不同，或者您将自己的业务密钥用作URI而不是Adobe提供的业务密钥，则无法使用PATCH操作修改自定义密钥。
+如果键值不同于原始键，或者您将自己的业务键用作URI，而不是Adobe提供的业务键，则无法使用PATCH操作修改自定义键。
 
 仅对&#x200B;**顶层配置文件资源**&#x200B;使用自定义键。 URL由API返回，绝不应该自行构建。
 

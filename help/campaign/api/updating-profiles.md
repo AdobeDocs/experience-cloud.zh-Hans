@@ -1,11 +1,11 @@
 ---
-title: 更新用户档案
+title: 更新轮廓
 description: 了解有关如何使用API更新用户档案的更多信息
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 1%
@@ -54,7 +54,7 @@ ht-degree: 1%
 }
 ```
 
-更新“phone”属性的PATCH请求。
+PATCH请求更新“phone”属性。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

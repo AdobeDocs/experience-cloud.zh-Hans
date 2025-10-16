@@ -1,11 +1,11 @@
 ---
 title: 使用API创建服务
 description: 了解如何使用API创建服务
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 使用API创建服务{#creating-a-service-api}
 
-对服务资源使用&#x200B;**POST**&#x200B;请求执行服务创建。
+使用服务资源上的&#x200B;**POST**&#x200B;请求执行服务创建。
 
 如果要创建具有特定属性的服务，请将其添加到有效负载中。 否则，将使用默认服务创建新服务。
 

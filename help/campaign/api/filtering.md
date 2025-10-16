@@ -4,11 +4,11 @@ description: 了解如何执行筛选操作。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## 检索过滤器元数据
 
-每个资源都可以使用过滤器。 要确定与资源关联的筛选器，需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的详细信息，请参阅[此章节](metadata-mechanism.md)。
+每个资源都可以使用过滤器。 要确定与资源关联的过滤器，您需要对资源元数据执行GET请求。 此请求会返回URL，其中为给定资源定义了所有过滤器。 有关元数据的详细信息，请参阅[此章节](metadata-mechanism.md)。
 
-要识别过滤器的元数据并确定其使用方式，必须对之前返回的URL执行GET请求。
+要识别过滤器的元数据并确定其使用方式，您必须对之前返回的URL执行GET请求。
 
 <br/>
 
@@ -162,7 +162,7 @@ ht-degree: 0%
   }
   ```
 
-* 用于检索具有“email”类型和标签“sport”的服务资源的示例GET请求。
+* 用于检索类型为“email”且标签为“sport”的服务资源的示例GET请求。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -202,14 +202,14 @@ ht-degree: 0%
 
 有关更多信息，请参阅Campaign Standard文档：
 
-* [正在配置筛选器定义](https://helpx.adobe.com/cn/campaign/standard/developing/using/configuring-filter-definition.html)。
-* [用例：使用复合标识键](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=zh-Hans)调用资源。
+* [正在配置筛选器定义](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html)。
+* [用例：使用复合标识键](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)调用资源。
 
 <br/>
 
 ***示例请求***
 
-用于检索交易额为100$或更大的“用户档案”资源的示例GET请求。 请注意，“byAmount”过滤器首先是在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
+用于检索交易额为100$或更大的“profile”资源的示例GET请求。 请注意，“byAmount”过滤器首先是在Adobe Campaign Standard界面中定义，并链接到“Transaction”自定义表。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

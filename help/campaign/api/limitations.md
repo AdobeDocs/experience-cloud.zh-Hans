@@ -1,22 +1,22 @@
 ---
-title: Recommendations和限制
-description: 迁移到Campaign v8 REST API时Recommendations和限制。
+title: 建议和限制
+description: 迁移到Campaign v8 REST API时的建议和限制。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
 
-# Recommendations和限制 {#limitations}
+# 建议和限制 {#limitations}
 
 ## 权限和安全性 {#permissions}
 
@@ -26,13 +26,13 @@ ht-degree: 1%
 
 通过迁移，可将两个产品配置文件添加到您现有或预先创建的技术帐户：管理员和消息中心（用于访问事务型API）。 如果您不希望将管理员产品配置文件映射到您的技术帐户，请查看产品配置文件映射，并分配所需的产品配置文件。
 
-### 租户 ID
+### 租户ID
 
-迁移后，对于任何未来的集成，建议在REST URL中使用您的&#x200B;**Campaign v8租户ID**，替换您以前的Campaign Standard租户ID。
+迁移后，对于任何未来的集成，建议在REST URL中使用您的&#x200B;**Campaign v8租户ID**，替换您之前的Campaign Standard租户ID。
 
 ### 密钥用法
 
-PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果您使用Campaign Standard存储PKeys，请确保您的实施使用从以前的API调用中获取的PKeys或href动态形成后续API调用。
+对PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果您使用Campaign Standard存储PKeys，请确保您的实施使用从以前的API调用中获取的PKeys或href动态形成后续API调用。
 
 ## 可用API {#deprecated}
 
@@ -70,9 +70,9 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 迁移期间将删除数据库中的某些字段。 使用放置的字段时，REST API将返回空白值。 将来，弃用和删除所有已删除的字段。
 
-## 包含链接资源的POST
+## 使用链接的资源发布
 
-使用以下请求正文格式时，“vehicleOwner”表示指向“nms：recipient”的链接：
+使用以下请求正文格式时，“vehicleOwner”表示指向“nms:recipient”的链接：
 
 ```
 {
@@ -91,8 +91,8 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 ## PATCH操作
 
-* Campaign v8不支持请求正文为空的PATCH：它返回204无内容状态。
-* 虽然Campaign Standard支持对架构中的元素/属性进行PATCH，但请注意，Campaign v8不支持对位置进行PATCH操作。 尝试对位置进行PATCH将导致500内部服务器错误，并显示一条错误消息，指示“zipCode”属性对于“profile”资源无效。
+* Campaign v8不支持请求正文为空的PATCH：它返回“204无内容”状态。
+* 虽然Campaign Standard在架构内的元素/属性上支持PATCH，但请注意，Campaign v8不支持在位置上执行PATCH操作。 尝试在位置上使用PATCH会导致500内部服务器错误，并显示一条错误消息，指示“zipCode”属性对于“profile”资源无效。
 
 ## REST响应
 
@@ -100,7 +100,7 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 * 对于单个GET记录，响应中包含href。
 * 在使用属性进行查询时，Campaign v8在响应中提供计数和分页。
-* POST操作后，响应中将返回来自链接资源的值。
+* POST操作后，响应中会返回链接资源的值。
 
 ## 错误代码和消息
 
@@ -108,26 +108,26 @@ PKey值的管理在Campaign Standard和Campaign v8之间有所不同。 如果�
 
 | 方案 | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| 在请求正文中使用无效的PKey | 500 — “O5iRp40EGA”属性未知(请参阅“Profiles (nms：recipient)”架构的定义)。 XTK-170036无法解析表达式“@id = @O5iRp40EGA”。 | 404 — 无法解密PKey。 (PKey=@jksad) |
-| 在URI中使用无效的PKey | 500 — “O5iRp40EGA”属性未知(请参阅“Profiles (nms：recipient)”架构的定义)。 XTK-170036无法解析表达式“@id = @O5iRp40EGA”。 | 404 — 无法解密PKey。 (PKey=@jksad)不支持的端点。 (endpoint=rest/profileAndServices/profile/@jksad) |
+| 在请求正文中使用无效的PKey | 500 — “O5iRp40EGA”属性未知(请参阅“配置文件(nms:recipient)”架构的定义)。 XTK-170036无法解析表达式“@id = @O5iRp40EGA”。 | 404 — 无法解密PKey。 (PKey=@jksad) |
+| 在URI中使用无效的PKey | 500 — “O5iRp40EGA”属性未知(请参阅“配置文件(nms:recipient)”架构的定义)。 XTK-170036无法解析表达式“@id = @O5iRp40EGA”。 | 404 — 无法解密PKey。 (PKey=@jksad)不支持的端点。 (endpoint=rest/profileAndServices/profile/@jksad) |
 | 在URI和请求正文中使用两个不同的原始Pkey | 500 - RST-360011发生错误 — 请联系您的管理员。 RST-360012对资源“服务”的操作不一致 — 无法将键“SVC3”更新为“SVC4”。 | 500 — 发生错误 — 请联系您的管理员。 |
 | 在URI中使用PKey，并在请求正文中使用其他原始PKey | 500 — 具有相同键“SVC4”的“服务”已存在。 PGS-220000 PostgreSQL错误：错误：重复的键值将违反唯一约束“nmsservice_name”。详细信息：键(sname)=(SVC4)已存在。 | 500 — 发生错误 — 请联系您的管理员。 |
-| 在URI中使用不存在的原始ID | 404 - RST-360011发生错误 — 请联系您的管理员。 无法从键“adobe_nl：0”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 | 404 — 无法从键“adobe_nl”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 |
+| 在URI中使用不存在的原始ID | 404 - RST-360011发生错误 — 请联系您的管理员。 无法从键“adobe_nl:0”（架构为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 | 404 — 无法从键“adobe_nl”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 |
 | 在请求正文中使用不存在的原始ID | 404 - RST-360011发生错误 — 请联系您的管理员。 无法从键“adobe_nl”中找到路径为“Service”的文档（架构为“service”且名称为“adobe_nl”的文档） | 404 — 无法从键“adobe_nl”（模式为“service”且名称为“adobe_nl”的文档）找到路径为“Service”的文档 |
 | - | 500 - RST-360011发生错误 — 请联系您的管理员。 | 500 — 发生错误 — 请联系您的管理员。 |
 | 插入具有无效性别（或任何）枚举值的配置文件/服务 | 500 - RST-360011发生错误 — 请联系您的管理员。 值“invalid”对于“@gender”字段的“nms:recipient:gender”枚举无效 | 500 — 发生错误 — 请联系您的管理员。 |
 
 ## 个人资料 — 时区
 
-对于Campaign Standard，时区显示为&#x200B;**profileAndServices/profile** REST API调用的JSON响应的一部分。
+使用Campaign Standard时，时区显示为&#x200B;**profileAndServices/profile** REST API调用的JSON响应的一部分。
 
 使用Campaign v8时，时区仅作为&#x200B;**profileAndServicesExt/profile** REST API调用的一部分显示给用户。 它不是&#x200B;**profileAndServices/profile** REST API调用的一部分，因为它被添加到扩展架构中。
 
 ## 工作流 — 外部信号触发
 
-Campaign Standard工作流GETAPI返回参数名称，例如工作流实例变量及其数据类型（布尔值、字符串等）。 当通过POSTAPI调用触发信号时，可用于创建格式适当的JSON请求正文。
+Campaign Standard Workflow GET API返回参数名称，例如工作流实例变量及其数据类型（布尔值、字符串等）。 当通过POST API调用触发信号时，可用于创建格式适当的JSON请求正文。
 
-Campaign v8不支持广告工作流实例变量，但希望开发人员了解这些变量。 因此，在迁移后，需要构建POST请求正文中的参数信息，而没有GETAPI响应中的参数信息。
+Campaign v8不支持广告工作流实例变量，但希望开发人员了解这些变量。 因此，在迁移后，需要构建POST请求正文中的参数信息，而没有GET API响应中的参数信息。
 
 <!--## Transactional messages
 
