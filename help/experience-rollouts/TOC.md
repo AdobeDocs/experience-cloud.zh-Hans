@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Adobe体验转出
 user-guide-description: 了解如何使用Adobe Experience转出管理应用程序中的功能标记、控制转出和定向发布。
-source-git-commit: cd1d882942705f51440ae99f4ce6daf467d3283c
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 6%
+source-wordcount: '340'
+ht-degree: 5%
 
 ---
 
@@ -77,10 +77,6 @@ ht-degree: 6%
       + [将环境与应用程序关联](guides/cross-environment/associate-environments.md)
       + [跨环境查看功能标记](guides/cross-environment/view-feature-flags-across-environments.md)
       + [导入功能标志](guides/cross-environment/import-feature-flags.md)
-   + 自动转出 {#automated-rollouts}
-      + [创建自动转出](guides/automated-rollouts/create-automated-rollout.md)
-      + [自动转出概念](guides/automated-rollouts/automated-rollout-concept.md)
-      + [监控和编辑转出计划](guides/automated-rollouts/monitor-edit-rollout-plan.md)
    + 支持 {#support}
       + [故障排除](guides/support/troubleshooting.md)
       + [获取支持](guides/support/get-support.md)
@@ -93,14 +89,14 @@ ht-degree: 6%
          + [Node.js SDK集成指南](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Node.js SDK发行说明](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [SDK基准测试](guides/sdk-releases/java-sdk-benchmarking.md)
-<!--+ Feature API {#feature-api}
-  + [GET Feature API V3](feature-api/get-feature-api-v3.md)
-  + [GET Feature API V2](feature-api/get-feature-api-v2.md)
-+ Management API {#management-api}
-  + [Feature management APIs overview](management-api/feature-management-apis-overview.md)
-  + [Feature flags management API](management-api/feature-flags-management-api.md)
-  + [Feature group management API](management-api/feature-group-management-api.md)
-  + [Release management APIs](management-api/release-management-apis.md)
-  + [Get client ID for an application](management-api/get-client-id.md)
-  + [Get desired audience criteria](management-api/get-audience-criteria.md)
-  + [Management patch API](management-api/management-patch-api.md)-->
++ 功能API {#feature-api}
+   + [GET功能API V3](feature-api/get-feature-api-v3.md)
+   + [GET功能API V2](feature-api/get-feature-api-v2.md)
++ 管理API {#management-api}
+   + [功能管理API概述](management-api/feature-management-apis-overview.md)
+   + [功能标记管理API](management-api/feature-flags-management-api.md)
+   + [功能组管理API](management-api/feature-group-management-api.md)
+   + [发布管理API](management-api/release-management-apis.md)
+   + [获取应用程序的客户端ID](management-api/get-client-id.md)
+   + [获取所需的受众条件](management-api/get-audience-criteria.md)
+   + [管理修补程序API](management-api/management-patch-api.md)

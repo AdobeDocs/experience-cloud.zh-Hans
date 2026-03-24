@@ -1,9 +1,9 @@
 ---
 title: 创建跨团队功能组
 description: 了解如何在Adobe Experience转出中创建跨团队功能组，以协调不同团队拥有的应用程序中的功能标记。
-source-git-commit: a1ed4582217001ffcf500cd7b634d9959adbe028
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 提供标题、键、描述和（可选）标记。 配置以下选项：
 
 * **转出百分比** — 设置受众接收该功能的比例。
-* **转出类型** — 选择“手动”或“自动”。 有关自动转出工作方式的详细信息，请参阅[自动转出](../automated-rollouts/automated-rollout-concept.md)。
+* **转出类型** — 设置为手动。 随着转出的进行，会逐步管理百分比。
 
 >[!NOTE]
 >
@@ -91,4 +91,3 @@ ht-degree: 1%
 
 * [版本和跨团队功能组](releases-and-cross-team-feature-groups.md)
 * [创建功能组](create-a-feature-group.md)
-* [创建自动转出](../automated-rollouts/create-automated-rollout.md)

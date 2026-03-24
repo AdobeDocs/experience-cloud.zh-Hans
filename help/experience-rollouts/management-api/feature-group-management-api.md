@@ -1,9 +1,9 @@
 ---
 title: 功能组管理API
 description: 体验转出功能组管理API的API参考，包括用于获取、创建、更新、删除和控制功能组的转出计划的端点。
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '575'
 ht-degree: 14%
 
 ---
@@ -90,28 +90,6 @@ ht-degree: 14%
 }
 ```
 
-**示例 — 自动转出：**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### 响应 {#create-response}
 
 | 状态 | 描述 |
@@ -136,29 +114,6 @@ ht-degree: 14%
 | `200` | 成功。 响应正文是更新的功能组对象。 |
 | `400` | 有效负载无效。 |
 | `403` | 权限不足。 |
-
-## 暂停、恢复或中止转出计划 {#pause-resume-abort}
-
-控制正在进行的自动化或A/B测试转出计划的执行。
-
-| 操作 | 终结点 |
-|---|---|
-| **继续** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **暂停** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **中止** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### 请求正文 {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### 响应 {#control-response}
-
-成功时返回`true`。
 
 ## 删除功能组 {#delete-group}
 
@@ -230,4 +185,3 @@ ht-degree: 14%
 * [功能管理API概述](feature-management-apis-overview.md)
 * [功能标记管理API](feature-flags-management-api.md)
 * [管理修补程序API](management-patch-api.md)
-* [创建自动转出](../guides/automated-rollouts/create-automated-rollout.md)
