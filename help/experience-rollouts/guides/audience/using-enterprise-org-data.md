@@ -1,13 +1,13 @@
 ---
 title: 在受众规则中使用企业组织数据
 description: 了解如何在Adobe Experience推广中使用企业组织ID作为受众标准来定位特定的客户组织。
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 74f97ec7-a809-41bf-a41d-bb57f033040f
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
-
 
 # 在受众规则中使用企业组织数据 {#enterprise-org-data}
 
@@ -41,5 +41,4 @@ DMA组织使用`XXXXXXXXXXXXXXXXXXXXXXXX@ADOBEORG`格式的组织ID。 输入DMA
 ## 另请参阅 {#see-also}
 
 * [功能标志和功能组中的受众](audience-in-feature-flags-and-feature-groups.md)
-* [更新版本受众规则](../feature-flags/update-release-audience-rules.md)
 * [复杂的受众规则](complex-rules.md)

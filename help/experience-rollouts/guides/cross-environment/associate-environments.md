@@ -1,17 +1,17 @@
 ---
 title: 将环境与应用程序关联
 description: 了解如何在Adobe Experience转出中跨环境链接应用程序实例，以便您能够以一致的方式管理从开发到生产的功能标记。
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
 
-
 # 将环境与应用程序关联 {#associate-environments}
 
-跨环境关联应用程序实例可实现跨环境可见性和导入工作流。 您必须具有&#x200B;**管理员**&#x200B;角色才能配置此设置。 如果需要验证您的角色，请参阅[用户角色](../teams/user-roles.md)。
+跨环境关联应用程序实例可实现跨环境可见性和导入工作流。 您必须具有&#x200B;**管理员**&#x200B;角色才能配置此设置。 如果您需要验证或更新您的角色，请联系您的团队管理员。
 
 有关此项有用的背景信息，请参阅[跨环境概念](cross-environment-concept.md)。
 

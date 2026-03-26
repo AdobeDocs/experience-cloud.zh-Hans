@@ -1,13 +1,13 @@
 ---
 title: 发布管理API
 description: Experience Rollout版本管理API的API参考，包括用于获取、创建和编辑版本以及跨团队功能组的端点。
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+exl-id: e8d1d025-0645-4cf2-921f-d94c9f71282d
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '490'
 ht-degree: 13%
 
 ---
-
 
 # 发布管理API {#release-management-apis}
 
@@ -146,4 +146,3 @@ ht-degree: 13%
 * [功能管理API概述](feature-management-apis-overview.md)
 * [功能标记管理API](feature-flags-management-api.md)
 * [功能组管理API](feature-group-management-api.md)
-* [创建跨团队功能组](../guides/feature-flags/create-cross-team-feature-group.md)

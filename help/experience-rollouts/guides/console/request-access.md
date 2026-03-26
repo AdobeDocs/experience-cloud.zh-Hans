@@ -1,13 +1,13 @@
 ---
 title: 请求访问
 description: 了解如何请求对Adobe体验转出团队的访问权限，以及新成员可用的角色。
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
-
 
 # 请求访问 {#request-access}
 
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 在请求访问之前，请确认以下内容：
 
-* 你知道该加入哪一队。 请与您的产品或工程主管核实，或参考[团队及其管理员](teams-and-admins.md)确定您的团队及其管理员。
+* 你知道该加入哪一队。 与您的产品或工程主管核实，确定您的团队及其管理员。
 * 您知道您需要访问哪个环境 — **暂存**、**生产**，或同时访问两者。
 
 ## 请求访问 {#request-steps}
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 ## 可用的角色 {#roles}
 
-分配给您的角色决定了您可以在控制台中执行的操作。 有关每个角色及其权限的完整说明，请参阅[用户角色](../teams/user-roles.md)。
+分配给您的角色决定了您可以在控制台中执行的操作。 如果您不确定要请求哪个角色，请联系您的团队管理员。
 
 ## 授予访问权限后 {#after-access}
 
@@ -43,4 +43,4 @@ ht-degree: 1%
 
 ## 需要帮助？ {#need-help}
 
-如果您不确定要加入哪个团队，或者您的项目尚无团队，请参阅[创建新团队](create-a-new-team.md)或联系贵组织的体验转出管理员。
+如果您不确定要加入哪个团队，或者您的项目尚无团队，请联系贵组织的体验转出管理员。

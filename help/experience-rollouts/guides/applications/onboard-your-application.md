@@ -1,17 +1,17 @@
 ---
 title: 载入您的应用程序
 description: 了解如何在Adobe Experience转出中载入新应用程序，以便您的团队可以开始创建和管理功能标记。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
 
-
 # 载入您的应用程序 {#onboard-your-application}
 
-您必须具有&#x200B;**管理员**&#x200B;角色才能添加新应用程序。 如果需要验证您的角色或向团队管理员请求该角色，请查看[用户角色](../teams/user-roles.md)。
+您必须具有&#x200B;**管理员**&#x200B;角色才能添加新应用程序。 如果您需要验证或更新您的角色，请联系您的团队管理员。
 
 ## 添加新应用程序 {#add-application}
 
@@ -45,5 +45,4 @@ ht-degree: 1%
 ## 另请参阅 {#see-also}
 
 * [管理应用程序](manage-applications.md)
-* [用户角色](../teams/user-roles.md)
 * [登录到控制台](../console/log-in-to-the-console.md)

@@ -1,13 +1,13 @@
 ---
 title: 创建您的第一个功能标记
 description: 了解如何在Adobe Experience转出中创建功能标记、设置受众并在向用户转出之前对其进行测试。
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: ae115120-8da9-465e-a556-c17591ea7054
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # 创建您的第一个功能标记 {#create-feature-flag}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 在创建功能标记之前，请完成以下操作：
 
 * 您有权访问体验转出控制台 — 请参阅[登录到控制台](../console/log-in-to-the-console.md)
-* 您属于一个团队 — 请参阅[管理团队](../teams/manage-teams.md)
 * 您的应用程序已载入 — 请参阅[将应用程序载入](../applications/onboard-your-application.md)
-* 您具有&#x200B;**开发人员**&#x200B;或&#x200B;**产品版本所有者**&#x200B;角色 — 请参阅[用户角色](../teams/user-roles.md)
+* 您具有&#x200B;**开发人员**&#x200B;或&#x200B;**产品版本所有者**&#x200B;角色
 
 ## 第1步：创建功能标记 {#create}
 
@@ -61,4 +60,3 @@ ht-degree: 0%
 
 * [设置功能以逐步推出](set-feature-gradual-rollout.md)
 * [创建功能组](create-a-feature-group.md)
-* [用户角色](../teams/user-roles.md)

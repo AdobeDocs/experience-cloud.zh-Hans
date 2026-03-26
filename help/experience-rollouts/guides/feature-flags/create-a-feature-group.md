@@ -1,13 +1,13 @@
 ---
 title: 创建功能组
 description: 了解如何在Adobe Experience转出中创建功能组，以便作为一个单元管理团队中跨应用程序的多个功能标记。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
-
 
 # 创建功能组 {#create-feature-group}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 在创建特征组之前，请完成以下操作：
 
 * 您有权访问体验转出控制台 — 请参阅[登录到控制台](../console/log-in-to-the-console.md)
-* 您属于一个团队 — 请参阅[管理团队](../teams/manage-teams.md)
 * 您的应用程序已载入 — 请参阅[将应用程序载入](../applications/onboard-your-application.md)
-* 您具有&#x200B;**开发人员**&#x200B;或&#x200B;**产品版本所有者**&#x200B;角色 — 请参阅[用户角色](../teams/user-roles.md)
+* 您具有&#x200B;**开发人员**&#x200B;或&#x200B;**产品版本所有者**&#x200B;角色
 * 您已创建要添加到组的功能标志 — 请参阅[创建您的第一个功能标志](create-your-first-feature-flag.md)
 
 有关功能组的介绍，请参阅[控制多个功能的功能组](../../concepts/feature-groups-to-control-multiple-features.md)。
@@ -36,7 +35,7 @@ ht-degree: 0%
 
 1. 提供标题、键、描述和（可选）标记。
 2. 为功能组设置&#x200B;**百分比转出**。
-3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志[&#128279;](a-b-testing.md)的A/B测试。
+3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志](a-b-testing.md)的[A/B测试。
 
 ## 步骤3：受众 {#audience}
 

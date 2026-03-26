@@ -1,13 +1,13 @@
 ---
 title: 故障排除
 description: 使用体验转出工作台诊断特定用户的功能标志评估问题，包括检查为给定用户标识启用、禁用或不匹配哪些功能。
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: d64e9573-8e18-46a1-a75a-5ae5bfc7c82d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
-
 
 # 故障排除 {#troubleshooting}
 
@@ -85,5 +85,3 @@ ht-degree: 0%
 
 * [获取支持](get-support.md)
 * [联系支持人员](contact-support.md)
-* [更新版本受众规则](../feature-flags/update-release-audience-rules.md)
-* [发行状态](../feature-flags/release-states.md)

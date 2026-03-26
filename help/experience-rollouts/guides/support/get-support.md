@@ -1,13 +1,13 @@
 ---
 title: 获取支持
 description: 了解如何获取Adobe Experience转出的帮助（包括自助服务资源），以及如何在需要帮助时提交支持请求。
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: f4ba9c00-941b-4c33-b42f-087113d58b0d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
-
 
 # 获取支持 {#get-support}
 
@@ -19,8 +19,7 @@ ht-degree: 1%
 
 * **搜索此文档** — 使用搜索功能查找指南、概念解释和操作方法内容。
 * **使用功能工作台** — 诊断特定用户的功能标志评估问题，而无需编写代码。 有关说明，请参阅[疑难解答](troubleshooting.md)。
-* **检查发行状态** — 确认功能对于目标受众而言处于正确状态。 请参阅[发行状态](../feature-flags/release-states.md)。
-* **验证受众规则** — 查看功能的受众条件和百分比配置。 请参阅[更新版本受众规则](../feature-flags/update-release-audience-rules.md)。
+* **验证功能标志状态** — 确认功能标志已发布且受众规则已正确配置。
 
 ## 提交支持请求 {#submit-request}
 

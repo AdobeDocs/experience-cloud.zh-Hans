@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Adobe体验转出
 user-guide-description: 了解如何使用Adobe Experience转出管理应用程序中的功能标记、控制转出和定向发布。
-source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
+source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '291'
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,8 @@ ht-degree: 5%
 + 指南 {#guides}
    + 控制台入门 {#console}
       + [登录到“体验转出”控制台](guides/console/log-in-to-the-console.md)
-      + [环境概述](guides/console/environments-overview.md)
+      + [选择您的沙盒](guides/console/environments-overview.md)
       + [请求访问](guides/console/request-access.md)
-      + [团队及其管理员](guides/console/teams-and-admins.md)
-      + [创建新团队](guides/console/create-a-new-team.md)
-   + 团队 {#teams}
-      + [管理团队](guides/teams/manage-teams.md)
-      + [用户角色](guides/teams/user-roles.md)
-      + [将成员添加到团队](guides/teams/add-team-members.md)
-      + [团队管理常见问题解答](guides/teams/team-management-faq.md)
    + 应用程序 {#applications}
       + [管理应用程序](guides/applications/manage-applications.md)
       + [载入您的应用程序](guides/applications/onboard-your-application.md)
@@ -49,19 +42,13 @@ ht-degree: 5%
       + [SDK](guides/integrate/sdks.md)
       + [集成步骤](guides/integrate/integration-steps.md)
       + [订阅Adobe Developer Console中的API应用程序](guides/integrate/subscribe-to-api-application.md)
-   + 功能标记和版本 {#feature-flags-releases}
-      + [功能、功能组和版本](guides/feature-flags/features-feature-groups-releases.md)
+   + 功能标志 {#feature-flags}
+      + [功能和功能组](guides/feature-flags/features-feature-groups-releases.md)
       + [创建您的第一个功能标记](guides/feature-flags/create-your-first-feature-flag.md)
       + [设置功能以逐步推出](guides/feature-flags/set-feature-gradual-rollout.md)
       + [创建功能组](guides/feature-flags/create-a-feature-group.md)
       + [设置功能组以逐步推出](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [使用功能标记进行A/B测试](guides/feature-flags/a-b-testing.md)
-      + [版本和跨团队功能组](guides/feature-flags/releases-and-cross-team-feature-groups.md)
-      + [端到端发布工作流](guides/feature-flags/release-workflow-end-to-end.md)
-      + [请求发布](guides/feature-flags/request-a-release.md)
-      + [更新版本受众规则](guides/feature-flags/update-release-audience-rules.md)
-      + [发行状态](guides/feature-flags/release-states.md)
-      + [创建跨团队功能组](guides/feature-flags/create-cross-team-feature-group.md)
       + [版本管理常见问题解答](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
       + [计划](guides/feature-flags/schedule.md)
