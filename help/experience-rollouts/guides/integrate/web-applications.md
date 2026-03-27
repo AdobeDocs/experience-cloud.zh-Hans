@@ -1,19 +1,21 @@
 ---
 title: Web 应用程序
-description: 了解如何使用功能API V3将Adobe体验转出集成到Web应用程序中。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: 了解如何使用Web SDK将Adobe体验转出集成到Web应用程序中。
+exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # Web 应用程序 {#web-applications}
 
-Web应用程序通过调用&#x200B;**功能API V3**&#x200B;来检索功能标记并在应用程序代码中放置条件逻辑来支持体验转出。
+Web应用程序通过Web SDK与Experience Rollout集成。
 
-有关完整的API参考（包括请求参数、响应格式和示例调用），请参阅本指南的功能API部分中的&#x200B;**GET功能API V3**。
+>[!NOTE]
+>
+>Web SDK文档目前正在准备中，即将推出。 有关抢先体验的指导，请联系您的Adobe代表。
 
 ## 集成步骤 {#integration-steps}
 

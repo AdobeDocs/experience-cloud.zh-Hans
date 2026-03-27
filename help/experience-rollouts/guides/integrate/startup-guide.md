@@ -1,13 +1,13 @@
 ---
 title: 启动指南
 description: 按照以下步骤将您的应用程序与Adobe体验转出集成，从请求访问权限到创建第一个功能标记。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
-
 
 # 启动指南 {#startup-guide}
 
@@ -29,21 +29,17 @@ ht-degree: 1%
 | **服务器端客户端** | 如果与服务器端SDK集成，则需要具有适当权限的管理客户端ID。 |
 | **桌面客户端** | 可以使用产品代码和产品版本代替客户端ID。 |
 
-## 步骤3：订阅体验转出API {#step-3-subscribe}
+## 步骤3：获取您的凭据 {#step-3-credentials}
 
-通过Adobe Developer Console订阅体验转出API，以便您的应用程序可以调用功能标志端点。 请参阅[在Adobe Developer Console中订阅API应用程序](subscribe-to-api-application.md)。
+如果您通过服务器端SDK集成，则需要服务令牌客户端ID。 在从SDK进行API调用之前，请与Experience Rollout支持人员联系以列入允许列表您的客户端ID。
 
->[!NOTE]
->
->如果您通过服务器端SDK集成，则需要服务令牌客户端ID。 请联系体验转出支持以列入允许列表您的客户端ID。
-
-## 步骤4：使用SDK或API进行集成 {#step-4-integrate}
+## 步骤4：使用SDK集成 {#step-4-integrate}
 
 对您的应用程序类型执行[集成步骤](integration-steps.md)。 选择适合您的栈栈的路径：
 
 * **Web服务** → Java SDK或Node.js SDK
-* **Web和移动应用**→功能API V3
-* **桌面应用程序**→功能API V2
+* **Web和移动应用** → Web SDK或移动SDK（即将推出）
+* **桌面应用程序** → SDK（即将推出）
 
 ## 步骤5：创建和测试您的第一个功能标记 {#step-5-feature-flag}
 

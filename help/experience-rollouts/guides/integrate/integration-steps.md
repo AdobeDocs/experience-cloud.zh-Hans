@@ -1,13 +1,13 @@
 ---
 title: 集成步骤
-description: 按照与您的应用程序类型相关的集成步骤，将Adobe Experience转出连接到您的Web服务、Web或移动应用程序或桌面应用程序。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: 按照应用程序类型的集成步骤，使用可用的SDK将Adobe Experience转出连接到您的Web服务、Web或移动应用程序或桌面应用程序。
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
-
 
 # 集成步骤 {#integration-steps}
 
@@ -27,23 +27,23 @@ ht-degree: 3%
 
 **其他语言**
 
-如果您的栈栈未在上面列出，请直接与&#x200B;**功能API V3**&#x200B;集成（请参阅本指南的功能API部分）。 如果您需要指导，请联系体验转出支持。
+有关特定栈栈的指导，请联系体验转出支持。
 
 ## Web和移动应用程序 {#web-mobile}
 
-Web和移动应用程序调用&#x200B;**功能API V3**&#x200B;以检索当前用户的功能标记并在应用程序中应用条件逻辑。
+Web和移动应用程序分别通过Web SDK和移动SDK进行集成。
 
-有关完整API参考，请参阅本指南的功能API部分中的&#x200B;**GET功能API V3**。
+>[!NOTE]
+>
+>Web SDK和移动SDK文档目前正在准备中，即将推出。 有关抢先体验的指导，请联系您的Adobe代表。
 
 ## 桌面应用程序 {#desktop}
 
-桌面应用程序调用&#x200B;**功能API V2**&#x200B;以检索功能标志。
+桌面应用程序通过SDK进行集成。 有关特定于桌面栈栈的集成指导，请与您的Adobe代表联系。
 
-有关完整API参考，请参阅本指南的功能API部分中的&#x200B;**GET功能API V2**。
-
->[!IMPORTANT]
+>[!NOTE]
 >
->桌面客户端必须遵守API响应中的TTL值，并针对API不可用实施正常错误处理。 有关要求，请参阅[桌面应用程序](desktop-applications.md)。
+>桌面SDK文档目前正在准备中，即将推出。
 
 ## 另请参阅 {#see-also}
 

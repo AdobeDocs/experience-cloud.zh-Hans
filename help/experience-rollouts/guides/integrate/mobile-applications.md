@@ -1,19 +1,21 @@
 ---
 title: 移动设备应用程序
-description: 了解如何使用功能API V3将Adobe体验转出集成到移动应用程序中。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: 了解如何使用移动SDK将Adobe体验转出集成到移动应用程序中。
+exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # 移动设备应用程序 {#mobile-applications}
 
-移动设备应用程序通过调用&#x200B;**功能API V3**&#x200B;来检索功能标记并在应用程序代码中应用条件逻辑来与体验转出集成。
+移动设备应用程序通过移动设备SDK与Experience Rollout集成。
 
-有关完整的API参考（包括请求参数、响应格式和示例调用），请参阅本指南的功能API部分中的&#x200B;**GET功能API V3**。
+>[!NOTE]
+>
+>移动SDK文档目前正在准备中，不久将会发布。 有关抢先体验的指导，请联系您的Adobe代表。
 
 ## 集成步骤 {#integration-steps}
 

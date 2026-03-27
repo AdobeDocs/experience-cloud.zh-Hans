@@ -1,13 +1,13 @@
 ---
 title: Web 服务
 description: 了解如何使用Java或Node.js SDK将Adobe Experience转出集成到后端Web服务中。
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
-
 
 # Web 服务 {#web-services}
 
@@ -22,11 +22,7 @@ ht-degree: 9%
 
 ## 其他语言 {#other-languages}
 
-如果您的后端服务使用以上未列出的语言，则可以直接与REST API集成：
-
-* 功能API V3 — 请参阅本指南的功能API部分以获取完整参考
-
-如果您需要有关与不受支持的栈栈集成的指导，请联系体验转出支持。
+如果您的后端服务使用以上未列出的语言，请联系Experience Rollouts支持团队，以获取有关与特定栈栈集成的指导。
 
 ## 另请参阅 {#see-also}
 
