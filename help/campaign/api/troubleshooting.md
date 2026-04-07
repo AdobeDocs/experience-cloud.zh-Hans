@@ -4,9 +4,9 @@ description: 进一步了解与Campaign Standard API相关的常见问题
 role: Developer
 level: Experienced
 badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 }
 ```
 
-* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 发生错误。 请检查您的URI并重试。&quot;}**
+* **向Adobe.io发出请求时，您会收到{&quot;code&quot;:500、&quot;message&quot;：&quot;Oops. 出现错误。 请检查您的URI并重试。&quot;}**
 
 Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上，当您选择Campaign服务时，您会获得一个选取器，其中包含可能的organization_id列表。 您需要检查您选择的就是您放入URL中的服务器。
 
@@ -85,7 +85,8 @@ Adobe.io声明您的URI无效：您请求的URI很可能无效。 在Adobe.io上
 
 根据实例配置，创建的配置文件需要关联到&#x200B;**orgUnit**。 若要了解如何在创建时添加此字段，请参阅[此章节](creating-profiles-api.md)。
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!-- 
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles

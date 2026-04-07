@@ -1,24 +1,24 @@
 ---
 title: 请求发布
 description: 了解如何在Adobe Experience转出中请求新的协调版本，以及要提供哪些信息。
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
-
 
 # 请求发布 {#request-a-release}
 
 ## 先决条件 {#prerequisites}
 
-* 您具有&#x200B;**版本管理器**&#x200B;角色 — 请参阅[用户角色](../teams/user-roles.md)
+* 您具有&#x200B;**版本管理器**&#x200B;角色 — 请参阅<!-- broken link[User roles](../teams/user-roles.md) -->
 * 您的应用程序已载入 — 请参阅[将应用程序载入](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->在请求版本之前，请查看[版本和跨团队功能组](releases-and-cross-team-feature-groups.md)。 跨团队功能组能够以更少的开销满足您的需求 — 它是自助式的，支持更丰富的受众定位。
+>在请求发布之前，请查看<!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->。 跨团队功能组能够以更少的开销满足您的需求 — 它是自助式的，支持更丰富的受众定位。
 
 ## 提交支持请求 {#submit}
 
