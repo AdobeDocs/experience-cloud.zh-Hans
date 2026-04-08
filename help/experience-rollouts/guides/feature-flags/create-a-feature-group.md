@@ -2,9 +2,9 @@
 title: 创建功能组
 description: 了解如何在Adobe Experience转出中创建功能组，以便作为一个单元管理团队中跨应用程序的多个功能标记。
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 提供标题、键、描述和（可选）标记。
 2. 为功能组设置&#x200B;**百分比转出**。
-3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志[&#128279;](a-b-testing.md)的A/B测试。
+3. 如果要运行A/B测试，请选择多个变体。 否则，将其保留在一个变体中。 有关详细信息，请参阅带有功能标志](a-b-testing.md)的[A/B测试。
 
 ## 步骤3：受众 {#audience}
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 ## 步骤5：计划（可选） {#schedule}
 
-您可以安排在将来的日期和时间激活功能组。 有关详细信息，请参阅[计划](schedule.md)。
+您可以使用功能组设置中的&#x200B;**计划**&#x200B;选项计划功能组在未来日期和时间激活。
 
 ## 另请参阅 {#see-also}
 

@@ -1,13 +1,13 @@
 ---
 title: 用于控制多个特征的特征组
 description: 了解体验转出中的功能组如何让您作为单个单元跨应用程序捆绑和管理相关功能标记。
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '174'
+ht-degree: 0%
 
 ---
-
 
 # 用于控制多个特征的特征组 {#feature-groups}
 
@@ -21,14 +21,5 @@ ht-degree: 1%
 
 ## 跨应用程序分组 {#cross-application}
 
-功能组支持跨应用程序功能管理，前提是这些标记属于体验转出中的&#x200B;**同一团队**。 一个团队可以拥有多个应用程序，因此可以将这些应用程序中的相关标志组合在一起。
+功能组支持跨应用程序功能管理。 可以将跨多个应用程序的相关标志组合在一起。
 
-## 功能组与版本 {#vs-releases}
-
-| | 功能组 | 版本 |
-|---|---|---|
-| 范围 | 在单个团队内 | 跨多个团队 |
-| 用例 | 在团队内协调标志 | 大型、多团队启动协调 |
-| 需要权限 | 团队级别 | 更高版本（版本管理器） |
-
-如果要将功能标记归属于不同团队拥有的应用程序，请使用[版本](release-management.md)，而不是功能组。

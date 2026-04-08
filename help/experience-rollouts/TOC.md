@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Adobe体验转出
 user-guide-description: 了解如何使用Adobe Experience转出管理应用程序中的功能标记、控制转出和定向发布。
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '180'
 ht-degree: 8%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 8%
    + [什么是功能标记](concepts/what-is-a-feature-flag.md)
    + [用于启用和禁用功能的功能标记](concepts/feature-flags-to-enable-disable-features.md)
    + [用于控制多个特征的特征组](concepts/feature-groups-to-control-multiple-features.md)
-   + [发布管理的概念](concepts/concept-of-release-management.md)
-   + [体验转出中的版本管理](concepts/release-management.md)
    + [逐步转出](concepts/gradual-rollout.md)
 + 指南 {#guides}
    + 控制台入门 {#console}
@@ -48,30 +46,14 @@ ht-degree: 8%
       + [创建功能组](guides/feature-flags/create-a-feature-group.md)
       + [设置功能组以逐步推出](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [使用功能标记进行A/B测试](guides/feature-flags/a-b-testing.md)
-      + [版本管理常见问题解答](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
-      + [计划](guides/feature-flags/schedule.md)
    + 受众条件 {#audience}
       + [功能标志和功能组中的受众](guides/audience/audience-in-feature-flags-and-feature-groups.md)
       + [在受众规则中使用上下文](guides/audience/using-context-in-audience-rules.md)
       + [复杂的受众规则](guides/audience/complex-rules.md)
-      + [在受众规则中使用企业组织数据](guides/audience/using-enterprise-org-data.md)
       + [在受众条件中添加百分比规则](guides/audience/adding-percentage-rules.md)
-      + [具有客户端IP上下文变量的受众规则](guides/audience/clientip-rule.md)
-   + 跨环境工作流 {#cross-environment}
-      + [跨环境概念](guides/cross-environment/cross-environment-concept.md)
-      + [将环境与应用程序关联](guides/cross-environment/associate-environments.md)
-      + [跨环境查看功能标记](guides/cross-environment/view-feature-flags-across-environments.md)
+   + 导入功能标志 {#import}
       + [导入功能标志](guides/cross-environment/import-feature-flags.md)
-   + 支持 {#support}
-      + [故障排除](guides/support/troubleshooting.md)
-      + [获取支持](guides/support/get-support.md)
-      + [联系支持人员](guides/support/contact-support.md)
    + SDK版本 {#sdk-releases}
-      + Java SDK {#java-sdk}
-         + [Java SDK集成指南](guides/sdk-releases/java/java-sdk-integration-guide.md)
-         + [Java SDK发行说明](guides/sdk-releases/java/java-sdk-release-notes.md)
-      + Node.js SDK {#nodejs-sdk}
-         + [Node.js SDK集成指南](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
-         + [Node.js SDK发行说明](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
-      + [SDK基准测试](guides/sdk-releases/java-sdk-benchmarking.md)
+      + Android扩展 {#android-extension}
+         + [Android扩展集成指南](guides/sdk-releases/android/android-extension-integration-guide.md)

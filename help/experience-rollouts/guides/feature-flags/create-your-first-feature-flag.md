@@ -2,9 +2,9 @@
 title: 创建您的第一个功能标记
 description: 了解如何在Adobe Experience转出中创建功能标记、设置受众并在向用户转出之前对其进行测试。
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 步骤4：计划（可选） {#schedule}
 
-您可以安排在将来的日期和时间激活功能标记。 有关详细信息，请参阅[计划](schedule.md)。
+您可以使用功能标志设置中的&#x200B;**计划**&#x200B;选项来计划将来激活的功能标志。
 
 ## 常见问题解答：我无法添加功能标志作为开发人员 {#faq}
 

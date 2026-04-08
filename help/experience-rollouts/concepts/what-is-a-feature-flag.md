@@ -1,13 +1,13 @@
 ---
 title: 什么是功能标记
 description: 了解功能标志是什么，以及它们如何让您在运行时打开或关闭应用程序功能，而无需重新部署。
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # 什么是功能标记 {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在体验转出中，功能标志是功能控制中最原子化的单位。 可以单独使用它来定位单个功能，或与[功能组](feature-groups-to-control-multiple-features.md)或[版本](release-management.md)中的其他标记组合。
+>在体验转出中，功能标志是功能控制中最原子化的单位。 可以单独使用它来定位单个功能，也可以将其与[功能组](feature-groups-to-control-multiple-features.md)中的其他标记结合使用。
