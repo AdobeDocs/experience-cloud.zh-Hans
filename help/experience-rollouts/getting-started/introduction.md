@@ -1,13 +1,14 @@
 ---
 title: 体验转出简介
 description: 了解Adobe Experience Rollout如何提供受控发布系统，用于将功能逐步部署到目标受众。
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # 体验转出简介 {#introduction}
 
@@ -40,3 +41,5 @@ Experience Rollout是一个功能管理平台，它提供：
 * **逐步转出** — 逐步提供阶段功能以降低风险、收集反馈和管理后端负载。
 
 * **删除开关** — 在检测到问题时立即关闭任何功能，无需更改或重新部署代码。
+
+<!-- -->

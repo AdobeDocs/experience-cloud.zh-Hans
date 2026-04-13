@@ -1,8 +1,9 @@
 ---
 title: 集成步骤
 description: 按照应用程序类型的集成步骤，使用可用的SDK将Adobe Experience转出连接到您的Web服务、Web或移动应用程序或桌面应用程序。
+hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
@@ -43,3 +44,5 @@ Web和移动应用程序分别通过Web SDK和移动SDK进行集成。
 * [SDK](sdks.md)
 * [Web 服务](web-services.md)
 * [桌面应用程序](desktop-applications.md)
+
+<!-- -->

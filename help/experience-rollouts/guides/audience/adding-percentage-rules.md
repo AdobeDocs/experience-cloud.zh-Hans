@@ -1,8 +1,9 @@
 ---
 title: 在受众条件中添加百分比规则
 description: 了解如何在Adobe体验转出中的受众标准中添加基于百分比的规则，以针对不同的受众区段定位不同的转出百分比。
+hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -63,3 +64,5 @@ ht-degree: 0%
 * [功能标志和功能组中的受众](audience-in-feature-flags-and-feature-groups.md)
 * [复杂的受众规则](complex-rules.md)
 * [设置功能以逐步推出](../feature-flags/set-feature-gradual-rollout.md)
+
+<!-- -->

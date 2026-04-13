@@ -1,8 +1,9 @@
 ---
 title: 创建功能组
 description: 了解如何在Adobe Experience转出中创建功能组，以便作为一个单元管理团队中跨应用程序的多个功能标记。
+hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -69,3 +70,5 @@ ht-degree: 0%
 * [设置功能组以逐步推出](set-feature-group-gradual-rollout.md)
 * [使用功能标记进行A/B测试](a-b-testing.md)
 * [用于控制多个特征的特征组](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

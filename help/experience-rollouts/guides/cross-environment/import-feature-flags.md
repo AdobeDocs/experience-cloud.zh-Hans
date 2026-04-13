@@ -1,8 +1,9 @@
 ---
 title: 导入功能标志
 description: 了解如何在Adobe Experience转出中将功能标记从一个沙盒导入另一个沙盒，以避免手动重新创建标记配置。
+hide: true
 exl-id: 37c84d75-a565-4202-8c99-f630e05b6bb6
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 1%
@@ -43,3 +44,5 @@ ht-degree: 1%
 
 * [功能和功能组](../feature-flags/features-feature-groups-releases.md)
 * [创建您的第一个功能标记](../feature-flags/create-your-first-feature-flag.md)
+
+<!-- -->

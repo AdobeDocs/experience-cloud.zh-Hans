@@ -1,13 +1,14 @@
 ---
 title: 选择您的沙盒
 description: 了解如何在使用Adobe Experience Platform Experience转出时选择正确的Adobe沙盒。
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 2%
 
 ---
-
 
 # 选择您的沙盒 {#sandbox}
 
@@ -21,3 +22,5 @@ ht-degree: 2%
 
 * [登录到控制台](log-in-to-the-console.md)
 * [请求访问](request-access.md)
+
+<!-- -->

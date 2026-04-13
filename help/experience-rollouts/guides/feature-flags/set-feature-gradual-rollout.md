@@ -1,13 +1,14 @@
 ---
 title: 设置功能以逐步推出
 description: 了解如何在Adobe体验转出中为功能标志配置基于百分比的逐步转出。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # 设置功能以逐步推出 {#gradual-rollout-feature}
 
@@ -24,3 +25,5 @@ ht-degree: 3%
 * [逐步转出](../../concepts/gradual-rollout.md)
 * [设置功能组以逐步推出](set-feature-group-gradual-rollout.md)
 * [创建您的第一个功能标记](create-your-first-feature-flag.md)
+
+<!-- -->

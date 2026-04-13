@@ -1,8 +1,9 @@
 ---
 title: 登录到“体验转出”控制台
 description: 了解如何通过查找您的团队、请求访问权限并登录到控制台来开始使用Adobe体验转出。
+hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -44,3 +45,5 @@ ht-degree: 2%
 | **团队** | 拥有应用程序并管理功能标志的自管理组。 团队具有扁平结构，具有不同的用户角色和权限级别。 |
 | **应用程序** | 您要使用功能标志控制的应用程序。 每个应用程序都由团队拥有。 |
 | **功能标志/功能组** | 在Experience转出中创建的用于功能测试和受控转出的构件。 |
+
+<!-- -->

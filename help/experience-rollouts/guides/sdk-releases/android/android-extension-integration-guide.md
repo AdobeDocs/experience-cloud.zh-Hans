@@ -1,13 +1,14 @@
 ---
 title: 适用于Android集成指南的Experience Rollout扩展
 description: 了解如何将Experience Rollout扩展与Android上的Adobe Experience Platform Mobile SDK集成。
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+hide: true
+exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 7%
 
 ---
-
 
 # 适用于Android的Experience Rollout扩展 {#android-extension-integration-guide}
 
@@ -474,3 +475,5 @@ String version = Rollout.extensionVersion();
 * [移动设备应用程序](../../integrate/mobile-applications.md)
 * [集成步骤](../../integrate/integration-steps.md)
 * [SDK](../../integrate/sdks.md)
+
+<!-- -->

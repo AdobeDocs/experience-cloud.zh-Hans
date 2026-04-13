@@ -1,13 +1,14 @@
 ---
 title: 更新版本受众规则
 description: 了解如何在Adobe体验转出中为版本配置和更新受众标准，包括支持的规则类型以及如何组合这些类型。
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
 
 ---
-
 
 # 更新版本受众规则 {#update-release-audience-rules}
 
@@ -76,3 +77,5 @@ ht-degree: 3%
 * [请求发布](request-a-release.md)
 * [端到端发布工作流](release-workflow-end-to-end.md)
 * [发行状态](release-states.md)
+
+<!-- -->

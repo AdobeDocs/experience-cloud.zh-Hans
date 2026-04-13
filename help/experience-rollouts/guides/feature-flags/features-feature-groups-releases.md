@@ -1,13 +1,14 @@
 ---
 title: 功能和功能组
 description: 了解Adobe Experience转出中的功能标记和功能组之间的差异以及何时使用它们。
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 4%
 
 ---
-
 
 # 功能和功能组 {#features-feature-groups}
 
@@ -44,3 +45,5 @@ ht-degree: 4%
 
 * [创建您的第一个功能标记](create-your-first-feature-flag.md)
 * [创建功能组](create-a-feature-group.md)
+
+<!-- -->

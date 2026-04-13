@@ -1,8 +1,9 @@
 ---
 title: 在应用程序中集成体验转出
 description: 了解如何将Adobe Experience转出集成到您的应用程序中，无论该应用程序是Web服务、Web资产、移动应用程序还是桌面应用程序。
+hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -33,3 +34,5 @@ ht-degree: 0%
 | **Web应用程序** | Web SDK（即将推出） |
 | **移动应用程序** | Mobile SDK（即将推出） |
 | **桌面应用程序** | SDK（即将推出） |
+
+<!-- -->
