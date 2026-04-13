@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Adobe体验转出
 user-guide-description: 了解如何使用Adobe Experience转出管理应用程序中的功能标记、控制转出和定向发布。
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 14b4d944830f8e3b3102152ae2ae36d3556f0804
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '186'
 ht-degree: 8%
 
 ---
@@ -57,3 +57,5 @@ ht-degree: 8%
    + SDK版本 {#sdk-releases}
       + Android扩展 {#android-extension}
          + [Android扩展集成指南](guides/sdk-releases/android/android-extension-integration-guide.md)
+      + iOS扩展 {#ios-extension}
+         + [iOS扩展集成指南](guides/sdk-releases/ios/ios-extension-integration-guide.md)
