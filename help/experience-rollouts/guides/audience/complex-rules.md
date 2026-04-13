@@ -1,8 +1,9 @@
 ---
 title: 复杂的受众规则
 description: 了解如何在Adobe体验转出中使用大型或复杂的受众规则集，包括批量值限制以及如何跨多个条件拆分规则。
+hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -36,3 +37,5 @@ ht-degree: 0%
 
 * [功能标志和功能组中的受众](audience-in-feature-flags-and-feature-groups.md)
 * [在受众条件中添加百分比规则](adding-percentage-rules.md)
+
+<!-- -->

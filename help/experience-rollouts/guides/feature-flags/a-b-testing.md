@@ -1,8 +1,9 @@
 ---
 title: 使用功能标记进行A/B测试
 description: 了解如何通过在Adobe Experience转出中为一组功能标记配置多个变体来使用功能组运行A/B测试。
+hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -53,3 +54,5 @@ ht-degree: 1%
 * [创建功能组](create-a-feature-group.md)
 * [设置功能组以逐步推出](set-feature-group-gradual-rollout.md)
 * [Analytics](analytics.md)
+
+<!-- -->

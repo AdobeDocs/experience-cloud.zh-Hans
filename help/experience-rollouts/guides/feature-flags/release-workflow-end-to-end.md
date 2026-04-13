@@ -1,13 +1,14 @@
 ---
 title: 端到端发布工作流
 description: 了解在Adobe Experience转出中管理协调版本的端到端工作流程，从定义功能标记到正式启用。
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
 
 ---
-
 
 # 端到端发布工作流 {#release-workflow}
 
@@ -46,3 +47,5 @@ ht-degree: 1%
 * [请求发布](request-a-release.md)
 * [更新版本受众规则](update-release-audience-rules.md)
 * [发行状态](release-states.md)
+
+<!-- -->

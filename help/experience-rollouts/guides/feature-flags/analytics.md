@@ -1,13 +1,14 @@
 ---
 title: Analytics
 description: 了解如何在Adobe体验转出中启用并使用内置的分析功能板来跟踪功能标记性能并衡量转出影响。
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
 
 ---
-
 
 # Analytics {#analytics}
 
@@ -42,3 +43,5 @@ Analytics必须在两个级别启用：
 * [创建您的第一个功能标记](create-your-first-feature-flag.md)
 * [使用功能标记进行A/B测试](a-b-testing.md)
 * [创建功能组](create-a-feature-group.md)
+
+<!-- -->

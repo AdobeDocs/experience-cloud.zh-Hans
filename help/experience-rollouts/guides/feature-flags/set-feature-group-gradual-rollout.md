@@ -1,13 +1,14 @@
 ---
 title: 设置功能组以逐步推出
 description: 了解如何在Adobe体验转出中为功能组配置基于百分比的逐步转出。
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 3%
 
 ---
-
 
 # 设置功能组以逐步推出 {#gradual-rollout-feature-group}
 
@@ -26,3 +27,5 @@ ht-degree: 3%
 * [创建功能组](create-a-feature-group.md)
 * [使用功能标记进行A/B测试](a-b-testing.md)
 * [逐步转出](../../concepts/gradual-rollout.md)
+
+<!-- -->

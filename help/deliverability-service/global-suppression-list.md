@@ -3,18 +3,18 @@ title: 全局禁止列表
 description: 了解全局禁止列表
 hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
-source-git-commit: 9d12eece2ca9f8f36951f8575bb0ac42bc10a728
-workflow-type: ht
-source-wordcount: '618'
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
+workflow-type: tm+mt
+source-wordcount: '630'
 ht-degree: 100%
 
 ---
 
 # 全局禁止列表 {#global-suppression-list}
 
-禁止列表由客户要从其投递中排除的电子邮件地址组成，因为发给这些联系人可能会损害其发送信誉和投递率。目前，Adobe 留存一份已证明损害参与和邮件声誉的已知不良电子邮件地址的最新列表，并确保不将电子邮件投递到这些地址。在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。全局禁止列表中包含的地址和域名被隐藏起来。在投递报告中仅指示被排除的收件人数量。
+禁止列表由客户要从其投递中排除的电子邮件地址组成，因为发给这些联系人可能会损害其发送信誉和投递率。 目前，Adobe 留存一份已证明损害参与和邮件声誉的已知不良电子邮件地址的最新列表，并确保不将电子邮件投递到这些地址。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。 全局禁止列表中包含的地址和域名被隐藏起来。 在投递报告中仅指示被排除的收件人数量。
 
-现在可以从一个供内部使用的界面管理全局禁止列表。只有投递顾问将维护此列表。全局禁止列表可以包括电子邮件或域地址。
+现在可以从一个供内部使用的界面管理全局禁止列表。 只有投递顾问将维护此列表。 全局禁止列表可以包括电子邮件或域地址。
 
 ## 访问全局禁止列表
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->查看、导出和管理全局禁止列表的权限取决于将您分配到的分发列表。了解详情
+>查看、导出和管理全局禁止列表的权限取决于将您分配到的分发列表。 了解详情
 
 其中显示两个选项卡：**[!UICONTROL 电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 域]**。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。可在[此页面](https://zh.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
+   >在此字段中允许使用值为 32 至 126 的所有 ASCII 可打印字符。 可在[此页面](https://zh.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。
 
@@ -81,13 +81,13 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >在&#x200B;**备注**&#x200B;列中允许使用值为 32 至 126 的所有 ASCII 字符。可在[此页面](https://zh.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
+   >在&#x200B;**备注**&#x200B;列中允许使用值为 32 至 126 的所有 ASCII 字符。 可在[此页面](https://zh.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}上找到完整列表以供参考。
 
 1. 完成后，拖放您的 CSV 文件，然后单击&#x200B;**[!UICONTROL 提交]**&#x200B;以确认。
 
 >[!NOTE]
 >
->上传完毕后，通过在界面中检查其状态而确保其成功。[了解如何操作](#recent-uploads)
+>上传完毕后，通过在界面中检查其状态而确保其成功。 [了解如何操作](#recent-uploads)
 
 ### 检查最近的上传状态 {#recent-uploads}
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 在上传过程中，如果某些地址的格式不正确，则不将这些地址添加到全局禁止列表。
 
-在这种情况下，当上传完毕后，它与某个报告关联。可下载该报告以检查遇到的错误。
+在这种情况下，当上传完毕后，它与某个报告关联。 可下载该报告以检查遇到的错误。
 
 ## 删除地址
 
@@ -109,4 +109,4 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->顾问无法通过界面删除由第三方服务提供商 Blackbox 自动添加的地址或域。只能通过后端工单执行此操作。
+>顾问无法通过界面删除由第三方服务提供商 Blackbox 自动添加的地址或域。 只能通过后端工单执行此操作。

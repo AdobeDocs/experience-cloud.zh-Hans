@@ -1,8 +1,9 @@
 ---
 title: 在受众规则中使用上下文
 description: 了解如何在受众规则中将上下文变量用于Adobe Experience转出中的功能标记和功能组。
+hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -54,3 +55,5 @@ ht-degree: 0%
 
 * [功能标志和功能组中的受众](audience-in-feature-flags-and-feature-groups.md)
 * [在受众条件中添加百分比规则](adding-percentage-rules.md)
+
+<!-- -->

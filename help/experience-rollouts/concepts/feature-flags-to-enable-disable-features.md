@@ -1,8 +1,9 @@
 ---
 title: 用于启用和禁用功能的功能标记
 description: 了解体验转出中的功能标记如何让您控制功能可用性、管理依赖项并降低部署风险。
+hide: true
 exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -44,3 +45,5 @@ ht-degree: 0%
 1. 开发人员创建功能标记并单独对其进行测试，而不会将其公开给其他用户。
 2. 产品所有者将受众链接到标记，从而使该功能对一组定义的外部用户可见。
 3. 可以选择将该标志添加到要与相关标志一起管理的[功能组](feature-groups-to-control-multiple-features.md)中。
+
+<!-- -->

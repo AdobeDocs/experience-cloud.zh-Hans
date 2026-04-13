@@ -1,13 +1,14 @@
 ---
 title: 发行状态
 description: 在Adobe Experience转出中了解版本的生命周期状态，包括每个状态的含义以及允许哪些过渡。
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+hide: true
+exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 3%
 
 ---
-
 
 # 发行状态 {#release-states}
 
@@ -46,3 +47,5 @@ ht-degree: 3%
 * [请求发布](request-a-release.md)
 * [端到端发布工作流](release-workflow-end-to-end.md)
 * [更新版本受众规则](update-release-audience-rules.md)
+
+<!-- -->

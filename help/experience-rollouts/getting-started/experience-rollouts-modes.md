@@ -1,13 +1,14 @@
 ---
 title: 体验转出模式
 description: 了解Adobe体验转出中的两种功能定位模式（用户级定位和组织级定位）以及何时使用每种模式。
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 3%
 
 ---
-
 
 # 体验转出模式 {#modes}
 
@@ -81,3 +82,5 @@ ht-degree: 3%
 
 * 如果您的问题是&#x200B;*“哪些用户应该看到此功能？”* →使用&#x200B;**用户级定位**
 * 如果您的问题是&#x200B;*“哪些组织或环境应该具有此功能？”* →使用&#x200B;**组织和环境级定位**
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: 创建您的第一个功能标记
 description: 了解如何在Adobe Experience转出中创建功能标记、设置受众并在向用户转出之前对其进行测试。
+hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -60,3 +61,5 @@ ht-degree: 0%
 
 * [设置功能以逐步推出](set-feature-gradual-rollout.md)
 * [创建功能组](create-a-feature-group.md)
+
+<!-- -->

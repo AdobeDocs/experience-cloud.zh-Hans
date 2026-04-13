@@ -1,8 +1,9 @@
 ---
 title: 用于控制多个特征的特征组
 description: 了解体验转出中的功能组如何让您作为单个单元跨应用程序捆绑和管理相关功能标记。
+hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -23,3 +24,5 @@ ht-degree: 0%
 
 功能组支持跨应用程序功能管理。 可以将跨多个应用程序的相关标志组合在一起。
 
+
+<!-- -->

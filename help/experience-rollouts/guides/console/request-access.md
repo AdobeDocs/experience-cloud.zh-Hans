@@ -1,8 +1,9 @@
 ---
 title: 请求访问
 description: 了解如何请求对Adobe体验转出团队的访问权限，以及新成员可用的角色。
+hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -44,3 +45,5 @@ ht-degree: 1%
 ## 需要帮助？ {#need-help}
 
 如果您不确定要加入哪个团队，或者您的项目尚无团队，请联系贵组织的体验转出管理员。
+
+<!-- -->
