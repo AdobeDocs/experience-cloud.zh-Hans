@@ -3,18 +3,20 @@ user-guide-title: Adobe Campaign v8
 user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role: User
-source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 71%
+source-wordcount: 162
+ht-degree: 80%
 
 ---
 
 # Adobe Campaign v8 {#campaign}
 
 + [主页](campaign-standard-migration-home.md)
-+ 动态报告{#reporting}
++ 动态报告 {#reporting}
    + [动态报告快速入门](reporting/get-started-reporting.md)
    + 关于报告 {#about-reporting}
       + [关于动态报告](reporting/about-dynamic-reports.md)
@@ -38,15 +40,15 @@ ht-degree: 71%
       + [添加面板](reporting/adding-panels.md)
       + [添加可视化](reporting/adding-visualizations.md)
       + [添加组件](reporting/adding-components.md)
-      + [创建自定义用户档案维度](reporting/creating-a-custom-profile-dimension.md)
+      + [创建自定义轮廓维度](reporting/creating-a-custom-profile-dimension.md)
       + [动态报告使用协议](reporting/pii-agreement.md)
-+ 品牌{#branding}
-   + [关于品牌](branding/branding-gs.md)
++ 品牌化 {#branding}
+   + [关于品牌化](branding/branding-gs.md)
    + [配置品牌](branding/branding-configure.md)
    + [分配品牌](branding/branding-assign.md)
 + REST API {#apis}
    + [开始使用REST API](api/get-started-apis.md)
-   + [Recommendations和限制](api/limitations.md)
+   + [建议和限制](api/limitations.md)
    + [为何使用REST API](api/why-using-campaign-standard-apis.md)
    + [设置 API 访问](api/setting-up-api-access.md)
    + 全局概念 {#global-concepts}
@@ -62,10 +64,10 @@ ht-degree: 71%
       + [自定义资源](api/custom-resources.md)
    + [与自定义资源交互](api/interacting-with-custom-resources.md)
    + 管理用户档案 {#managing-profiles}
-      + [检索用户档案](api/retrieving-profiles.md)
-      + [更新用户档案](api/updating-profiles.md)
-      + [创建用户档案](api/creating-profiles-api.md)
-   + 管理服务和订阅{#managing-services-and-subscriptiopns}
+      + [检索轮廓](api/retrieving-profiles.md)
+      + [更新轮廓](api/updating-profiles.md)
+      + [创建轮廓](api/creating-profiles-api.md)
+   + 管理服务和订阅 {#managing-services-and-subscriptiopns}
       + [创建服务](api/creating-a-service.md)
       + [检索订阅](api/retrieving-subscriptions.md)
       + [执行订阅](api/perform-subscriptions.md)

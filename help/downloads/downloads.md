@@ -1,10 +1,11 @@
 ---
 title: 隐藏的下载文件
 description: 隐藏的下载文件仅供参考
-hide: y
-source-git-commit: 28434780a9ce7e8332f88a21fbaae4f65cef34b7
+hide: true
+exl-id: f4b0aa11-ae9b-4074-902d-a5be412d07f7
+source-git-commit: 76932b21cfe714780ff520ace588cd9fcba5c6ae
 workflow-type: tm+mt
-source-wordcount: '32'
+source-wordcount: '52'
 ht-degree: 0%
 
 ---
