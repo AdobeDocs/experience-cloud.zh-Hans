@@ -2,9 +2,17 @@
 title: 创建和管理 Experience Cloud 触发器
 description: 探索 Adobe Experience Cloud 触发器 UI
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
+TQID: https://experienceleague.adobe.com/0EG1662w4P--X1uN3hH7JRBFrU0B5JU--LxP0T49tYY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: 516
 ht-degree: 100%
 
 ---
@@ -13,13 +21,13 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->Adobe Experience Cloud 触发器新用户界面逐渐向所有客户推出。有关更多信息，请与您的 Adobe 代表联系。
+>Adobe Experience Cloud 触发器新用户界面逐渐向所有客户推出。 有关更多信息，请与您的 Adobe 代表联系。
 
-创建触发器并配置触发器的条件。例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。当满足规则时，触发器会运行。
+创建触发器并配置触发器的条件。 例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。 当满足规则时，触发器会运行。
 
 >[!NOTE]
 >
-> Experience Cloud 触发器的新用户界面提供一种直观的体验以管理消费者行为并使用户体验个性化。要切换回以前的界面，请单击&#x200B;**[!UICONTROL 转到经典模式]**&#x200B;按钮。
+> Experience Cloud 触发器的新用户界面提供一种直观的体验以管理消费者行为并使用户体验个性化。 要切换回以前的界面，请单击&#x200B;**[!UICONTROL 转到经典模式]**&#x200B;按钮。
 
 1. 在 Experience Cloud 中，选择解决方案切换器菜单，然后选择&#x200B;**[!UICONTROL “触发器”]**。
 
@@ -31,7 +39,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 放弃：]**&#x200B;可创建触发器，以便在访客查看产品却未将任何东西添加到购物车时触发。
 
-   * **[!UICONTROL 操作：]**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。如果您是零售商，则可以针对注册会员计划的访客创建一个触发器。在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
+   * **[!UICONTROL 操作：]**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。 如果您是零售商，则可以针对注册忠诚度计划的访客创建一个触发器。 在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
 
    * **[!UICONTROL 会话开始和会话结束：]**&#x200B;为会话开始和会话结束事件创建触发器。
 
@@ -39,13 +47,13 @@ ht-degree: 100%
 
 1. 将&#x200B;**[!UICONTROL 名称]**&#x200B;和&#x200B;**[!UICONTROL 描述]**&#x200B;添加到您的触发器。
 
-1. 选择用于此触发器的 Analytics **[!UICONTROL 报表包]**。此设置标识要使用的报表数据。
+1. 选择用于此触发器的 Analytics **[!UICONTROL 报表包]**。 此设置标识要使用的报表数据。
 
    [详细了解报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hans){target="_blank"}。
 
 1. 选择&#x200B;]**无操作多久后触发**[!UICONTROL &#x200B;有效期。
 
-1. 可从&#x200B;**[!UICONTROL 访问必须包括]**&#x200B;和&#x200B;**[!UICONTROL 访问不得包括]**&#x200B;类别中定义希望或不希望发生的标准或访客行为。您可以在容器内或容器之间指定 **And** 或 **Or** 逻辑，具体取决于您确定的标准。
+1. 可从&#x200B;**[!UICONTROL 访问必须包括]**&#x200B;和&#x200B;**[!UICONTROL 访问不得包括]**&#x200B;类别中定义希望或不希望发生的标准或访客行为。 您可以在容器内或容器之间指定 **And** 或 **Or** 逻辑，具体取决于您确定的标准。
 
    例如，一个简单的购物车放弃触发器规则可以是：
 
@@ -54,7 +62,7 @@ ht-degree: 100%
 
    ![](assets/triggers_2.png)
 
-1. 单击&#x200B;**[!UICONTROL 容器]**&#x200B;以建立和保存定义触发器的规则、条件或过滤器。要使事件同时发生，您应该将其置于同一容器中。
+1. 单击&#x200B;**[!UICONTROL 容器]**&#x200B;以建立和保存定义触发器的规则、条件或过滤器。 要使事件同时发生，您应该将其置于同一容器中。
 
    每个容器在点击级别单独处理，即如果用 **[!UICONTROL And]** 运算符连接两个容器，则只有当两次点击满足要求时，规则才符合要求。
 
@@ -68,6 +76,6 @@ ht-degree: 100%
 
    ![](assets/triggers_4.png)
 
-1. 可从触发器的详细视图中访问有关触发了多少触发器的报告。如果需要，您可以使用铅笔图标编辑触发器。
+1. 可从触发器的详细视图中访问有关触发了多少触发器的报告。 如果需要，您可以使用铅笔图标编辑触发器。
 
    ![](assets/triggers_5.png)

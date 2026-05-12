@@ -1,12 +1,22 @@
 ---
 title: Adobe Campaign Web用户界面
 description: 发现Adobe Campaign Web用户界面
-badge: label="有限可用性" type="Informative" url="campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
+TQID: https://experienceleague.adobe.com/Ac8fvg1LbjA-BhC7ldFfSxFo-CYzKhjd1itqk6jltOM
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 11%
+source-wordcount: 391
+ht-degree: 19%
 
 ---
 
@@ -27,7 +37,7 @@ ht-degree: 11%
 
 大致了解[Campaign Web用户界面](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/campaign-web-home)和[Campaign v8](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/campaign-home)提供的所有功能和特性。
 
-为了让您能够无缝过渡，我们添加了从Campaign Standard到v8的关键功能：
+为了让您能够无缝过渡，我们已从Campaign Standard添加关键功能到v8：
 
 >[!BEGINTABS]
 
@@ -39,7 +49,7 @@ ht-degree: 11%
 
 >[!TAB 集中品牌]
 
-您的技术管理员现在可以定义一个或多个品牌，以集中处理影响品牌识别的参数。
+您的技术管理员现在可以定义一个或多个品牌，以集中管理影响品牌形象的相关参数。
 
 [![图像](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
 

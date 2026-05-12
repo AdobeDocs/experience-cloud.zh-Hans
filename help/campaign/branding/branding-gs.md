@@ -5,12 +5,22 @@ audience: administration
 context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/El7fE2aveS9C67b8B8fkMpiwMaMx-9aWpW4-3Ev7mG4
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 18%
+source-wordcount: 363
+ht-degree: 23%
 
 ---
 
@@ -18,7 +28,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->最终用户不能创建或修改品牌：必须由 Adobe Campaign 技术管理员执行这些操作。如有任何需求，请与 Adobe 客户关怀部门联系。
+>最终用户不能创建或修改品牌：必须由 Adobe Campaign 技术管理员执行这些操作。 如有任何需求，请与 Adobe 客户关怀部门联系。
 
 每家公司都有定义视觉元素和技术细节的品牌准则。 Adobe Campaign可帮助您集中管理这些准则，以使您可在所执行的所有操作（从电子邮件中的徽标到营销活动中使用的URL和域）中为客户提供一致的品牌形象。
 
@@ -30,7 +40,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >所有管理员用户都可访问控制面板。[此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
+   >所有管理员用户都可访问控制面板。 [此页面](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=zh-Hans#discover-control-panel)详细介绍了授予用户管理员访问权限的步骤。
 
 1. **创建投放模板** — 新品牌可用后，最佳做法是至少创建一个引用此新品牌的新空白投放模板。 [了解详情](branding-assign.md)。
 

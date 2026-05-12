@@ -5,9 +5,21 @@ audience: reporting
 content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
-source-git-commit: 5da9b29c424f019f3dafc127a41e974017af494c
+TQID: https://experienceleague.adobe.com/eru99ME-JlrcRl074heBXwVhBLgeQJaQdiJkM-QT2SY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 517
 ht-degree: 3%
 
 ---
@@ -28,7 +40,7 @@ ht-degree: 3%
 
    ![](assets/custom_field_1.png)
 
-1. 识别您的自定义收件人模式并将其选定。 如果尚未扩展内置nms：recipient架构，请参阅[此过程](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
+1. 识别您的自定义收件人模式并将其选定。 如果尚未扩展内置nms:recipient架构，请参阅[此过程](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
 
 1. 将自定义字段添加到架构编辑器。
 
@@ -42,7 +54,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 然后，识别您的自定义broadLogRcp架构并将其选定。 如果尚未扩展内置的投放日志架构，请参阅[此过程](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
+1. 然后，识别您的自定义broadLogRcp架构并将其选定。 如果尚未扩展内置的投放日志架构，请参阅[此过程](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema)。
 
 1. 将与收件人架构相同的自定义字段添加到架构编辑器。
 
@@ -50,7 +62,7 @@ ht-degree: 3%
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
 
-1. 要应用对架构所做的修改，请通过&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级]** > **[!UICONTROL 更新数据库结构]**&#x200B;启动数据库更新向导，并运行更新数据库结构。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. 要应用对架构所做的修改，请通过&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 高级]** > **[!UICONTROL 更新数据库结构]**&#x200B;启动数据库更新向导，并运行更新数据库结构。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 
@@ -94,7 +106,7 @@ ht-degree: 3%
 
    ![](assets/custom_field_8.png)
 
-1. 在&#x200B;**[!UICONTROL Dimension]**&#x200B;类别中，单击&#x200B;**[!UICONTROL 配置文件]**，然后将配置文件维度拖放到自由格式表中。
+1. 在&#x200B;**[!UICONTROL 维度]**&#x200B;类别中，单击&#x200B;**[!UICONTROL 个人资料]**，然后将个人资料维度拖放到自由格式表中。
 
    ![](assets/custom_field_9.png)
 
