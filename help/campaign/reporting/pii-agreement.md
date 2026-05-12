@@ -2,15 +2,21 @@
 title: 动态报告快速入门
 description: 了解有关动态报告使用协议的更多信息
 level: Beginner
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 audience: end-user
-source-git-commit: c6a6cb7da640c9c29af71487e468f38ebf51d4f6
+exl-id: 9fcef466-f306-480e-b42e-d18daa8bcf06
+TQID: https://experienceleague.adobe.com/AGXqq-XOQU8SmHobDIA-nZqw3eNSa2THnw2jQQP54YA
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 2%
 
 ---
-
 
 # 动态报告使用协议 {#pii-agreement}
 
@@ -31,13 +37,13 @@ ht-degree: 1%
 |  | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
 | 美洲和APAC （亚太） | **功能可用**。 <br>所有现成（即城市、国家/地区、州/省、性别和年龄段）和自定义用户档案信息均推送到美国报告中心。 | **功能可用**。 <br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign事件字段都在美国数据中心进行处理。 |
-| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>所有现成（即城市、国家/地区、州、性别和年龄段）和推送到EMEA报告中心的自定义配置文件信息。 | **功能可用。** <br>在EMEA数据中心中处理的所有现成配置文件字段和自定义配置文件字段以及Adobe Campaign事件字段。 <br>**[!UICONTROL 控制数据&#x200B;]**，其中包含已发送并存储在美国数据中心的Adobe I/O注册数据和客户最终用户事件的ID。 |
+| EMEA（欧洲、中东和非洲） | **功能可用**。 <br>所有现成（即城市、国家/地区、州、性别和年龄段）和推送到EMEA报告中心的自定义配置文件信息。 | **功能可用。** 在EMEA数据中心中处理了<br>所有现成的用户档案和自定义用户档案字段以及Adobe Campaign事件字段。 <br>**[!UICONTROL 控制数据&#x200B;]**，其中包含在美国数据中心发送并存储的Adobe I/O注册数据和客户最终用户事件的ID。 |
 
-下表根据您所在的地区显示拒绝此协议后发生的情况。 请注意，即使您拒绝此协议，也仍然可以提供有关投放和Microsoft Dynamics 365集成的报告。
+下表根据您所在的地区显示拒绝此协议后发生的情况。 请注意，即使您拒绝此协议，仍可以使用有关投放和Microsoft Dynamics 365集成的报告。
 
 | 区域 | 动态报告 | Microsoft Dynamics 365连接器 |
 |---|---|---|
-| 美洲和APAC （亚太） | **功能可用**。 <br>没有现成的和自定义的配置文件信息推送到US报告中心，ExternalID除外。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到美国数据中心。 <br>所有在美国数据中心处理的Adobe Campaign事件字段，但镜像页面ID除外。 |
+| 美洲和APAC （亚太） | **功能可用**。<br> 除ExternalID外，没有现成的用户档案和自定义用户档案信息推送至美国报表中心。 | **功能可用**。 <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到美国数据中心。 <br>所有在美国数据中心处理的Adobe Campaign事件字段，但镜像页面ID除外。 |
 | EMEA（欧洲、中东和非洲） | **功能可用**。 <br>除ExternalID外，没有现成的用户档案和自定义用户档案信息推送到EMEA报告中心。 | **功能可用。** <br>除外部ID和收件人ID外，没有现成或自定义的配置文件字段发送到EMEA数据中心。 <br>在EMEA数据中心中处理的所有Adobe Campaign事件字段，但镜像页面ID除外。 |
 
 此选择不是最终选择，您始终可以通过在&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL 平台]** > **[!UICONTROL 选项]**&#x200B;中选择&#x200B;**[!UICONTROL realtimeReporting_collectPII]**&#x200B;选项来更改它。

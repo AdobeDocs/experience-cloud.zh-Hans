@@ -3,11 +3,16 @@ title: 添加组件
 description: 将组件拖放到自由格式表以开始筛选数据和构建报表。
 audience: end-user
 level: Intermediate
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 2b22f147-ed75-40ca-8859-8f4b23bca7c3
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/Mq7ZEHuTsJVuPF8x-wz4452BJ61ffImgSIVtkIgiokM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 294
 ht-degree: 4%
 
 ---
@@ -24,7 +29,7 @@ ht-degree: 4%
 
    组件表分为四类：
 
-   * **Dimension**：从投放日志获取详细信息，如收件人的浏览器或域，或者投放是否成功。
+   * **维度**：从投放日志获取详细信息，如收件人的浏览器或域，或者投放是否成功。
    * **量度**：获取有关消息状态的详细信息。 例如，如果传送了消息并且用户将其打开。
    * **[!UICONTROL 区段]**：根据收件人的年龄范围筛选数据。 可以直接在自由格式表或面板的顶部栏中拖放&#x200B;**[!UICONTROL 区段]**。
 

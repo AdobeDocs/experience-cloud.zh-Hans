@@ -3,18 +3,23 @@ title: 动态报告入门
 description: 在内建或自定义的动态报告中，分析促销活动成功与否。
 audience: end-user
 level: Beginner
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: b65dbece574778eada43497456ff0eed850a3598
+TQID: https://experienceleague.adobe.com/W4ZvHvvxyFGzL11PAwgDp4hLsUL80aaJBA-aFG9aZy8
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 12%
+source-wordcount: 297
+ht-degree: 21%
 
 ---
 
 # 动态报告入门 {#get-started-reporting}
 
-动态报告提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对用户档案数据的访问权限，从而除了功能电子邮件促销活动数据（如打开数和点击数）之外，还可按用户档案维度（如性别、城市和年龄）进行人口统计分析。
+动态报告提供完全可自定义的实时报告以衡量营销活动的影响。 它增加了对轮廓数据的访问，除打开数和点击数等功能性电子邮件营销活动数据外，还支持按轮廓维度（如性别、城市和年龄）进行人口统计分析。
 
 <table>
 <tr>

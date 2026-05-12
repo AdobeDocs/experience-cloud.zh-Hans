@@ -5,12 +5,17 @@ audience: administration
 context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
-badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard已迁移的用户"
+badge: label="有限可用性" type="Informative" url="../campaign-standard-migration-home.md" tooltip="仅限于Campaign Standard迁移的用户"
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
+TQID: https://experienceleague.adobe.com/aL-I6JknWhDoCob136gJB5Ier2a-T0oMiVFn1ZnRw0s
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 18%
+source-wordcount: 513
+ht-degree: 17%
 
 ---
 
@@ -26,9 +31,9 @@ ht-degree: 18%
 
 >[!TAB Adobe Campaign V8]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign/campaign-v8/send/create-templates)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
 
-创建模板后，您可以将其链接到品牌。操作步骤：
+创建模板后，您可以将其链接到品牌。 操作步骤：
 
 1. 在Adobe Campaign资源管理器中浏览到&#x200B;**[!UICONTROL 资源]** `>` **[!UICONTROL 模板]** `>` **[!UICONTROL 投放模板]**。
 
@@ -50,9 +55,9 @@ ht-degree: 18%
 
 >[!TAB Adobe Campaign Web]
 
-要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/delivery-template)
+要创建投放模板，您可以复制内置模板、将现有投放转换为模板或从头开始创建投放模板。 [了解详情](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
 
-创建模板后，您可以将其链接到品牌。操作步骤：
+创建模板后，您可以将其链接到品牌。 操作步骤：
 
 1. 从&#x200B;**[!UICONTROL 投放]**&#x200B;左侧菜单浏览到&#x200B;**[!UICONTROL 模板]**&#x200B;选项卡，然后选择投放模板。
 
@@ -98,7 +103,7 @@ ht-degree: 18%
 
 1. 配置完毕后，选择&#x200B;**确定**。
 
-1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/email/create-email)部分。
+1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[设计和发送电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email)部分。
 
 >[!TAB Adobe Campaign Web]
 
@@ -124,6 +129,6 @@ ht-degree: 18%
 
    ![](assets/branding_assign_web_7.png)
 
-1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[创建您的第一个电子邮件](https://experienceleague.adobe.com/zh-hans/docs/campaign-web/v8/msg/email/create-email)部分。
+1. 进一步个性化您的投放。 有关创建电子邮件的详细信息，请参阅[创建您的第一个电子邮件](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email)部分。
 
 >[!ENDTABS]
