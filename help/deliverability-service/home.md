@@ -6,13 +6,12 @@ exl-id: 31ea97e7-b0a0-4a92-bc69-a458fdbc1d7c
 TQID: https://experienceleague.adobe.com/cBUtLbfjHHnFO2SMjh0bVDJNZFJlnGolwSShLZ0hIew
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '173'
 ht-degree: 100%
-
 ---
-
 # Adobe Deliverability Services {#deliv-home}
 
 投递顾问和运营团队必须执行多项活动以帮助客户改善电子邮件投递。 在分析所有投递功能后发现，虽然可将大多数功能直接供客户使用，但某些功能应仅供 Adobe 投递团队使用。 为了向客户提供更快速且更优质的投递服务，我们决定创建一个基于 UI 的投递应用程序，它将充当投递团队的一站式解决方案。 投递团队使用此应用程序即可为客户历程管理系列中多个产品（如 Journey Optimizer、Campaign 和 Marketo）的客户提供其服务。

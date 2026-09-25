@@ -6,13 +6,12 @@ exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 TQID: https://experienceleague.adobe.com/gCmvM2zwg-6CmT-O1HjM24niis-mJRnJEXt3LunUZaI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 100%
-
 ---
-
 # 全局禁止列表 {#global-suppression-list}
 
 禁止列表由客户要从其投递中排除的电子邮件地址组成，因为发给这些联系人可能会损害其发送信誉和投递率。 目前，Adobe 留存一份已证明损害参与和邮件声誉的已知不良电子邮件地址的最新列表，并确保不将电子邮件投递到这些地址。 在所有 Adobe 客户共有的一个全局禁止列表中管理此列表。 全局禁止列表中包含的地址和域名被隐藏起来。 在投递报告中仅指示被排除的收件人数量。
@@ -25,7 +24,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->查看、导出和管理全局禁止列表的权限取决于将您分配到的分发列表。 了解详情
+>查看、导出和管理全局禁止列表的权限取决于分配给您的分发列表。 了解详情
 
 其中显示两个选项卡：**[!UICONTROL 电子邮件]**&#x200B;和&#x200B;**[!UICONTROL 域]**。
 
@@ -48,7 +47,7 @@ ht-degree: 100%
 
 1. 选择地址类型：**[!UICONTROL 电子邮件地址]**&#x200B;或&#x200B;**[!UICONTROL 域地址]**。
 
-1. 输入您要从发送中排除的电子邮件地址或域。
+1. 输入您要在发送时排除的电子邮件地址或域。
 
    >[!NOTE]
    >

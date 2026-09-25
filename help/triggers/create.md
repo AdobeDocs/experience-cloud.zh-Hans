@@ -5,29 +5,31 @@ exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 TQID: https://experienceleague.adobe.com/0EG1662w4P--X1uN3hH7JRBFrU0B5JU--LxP0T49tYY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: Reporting
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '516'
 ht-degree: 100%
-
 ---
-
 # 创建 Experience Cloud 触发器 {#create-triggers}
 
 >[!AVAILABILITY]
 >
->Adobe Experience Cloud 触发器新用户界面逐渐向所有客户推出。 有关更多信息，请与您的 Adobe 代表联系。
+>Adobe Experience Cloud 触发器新用户界面逐渐向所有客户推出。 如需了解更多信息，请联系您的 Adobe 代表。
 
 创建触发器并配置触发器的条件。 例如，您可以指定访问期间触发器规则的条件，如量度（购物车放弃）或维度（产品名称）。 当满足规则时，触发器会运行。
 
 >[!NOTE]
 >
-> Experience Cloud 触发器的新用户界面提供一种直观的体验以管理消费者行为并使用户体验个性化。 要切换回以前的界面，请单击&#x200B;**[!UICONTROL 转到经典模式]**&#x200B;按钮。
+> Experience Cloud 触发器的新用户界面提供了直观的体验，可用于管理消费者行为并个性化用户体验。 要切换回以前的界面，请单击&#x200B;**[!UICONTROL 转到经典模式]**&#x200B;按钮。
 
 1. 在 Experience Cloud 中，选择解决方案切换器菜单，然后选择&#x200B;**[!UICONTROL “触发器”]**。
 
@@ -49,7 +51,7 @@ ht-degree: 100%
 
 1. 选择用于此触发器的 Analytics **[!UICONTROL 报表包]**。 此设置标识要使用的报表数据。
 
-   [详细了解报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hans){target="_blank"}。
+   [详细了解报表包](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html){target="_blank"}。
 
 1. 选择&#x200B;]**无操作多久后触发**[!UICONTROL &#x200B;有效期。
 
@@ -76,6 +78,6 @@ ht-degree: 100%
 
    ![](assets/triggers_4.png)
 
-1. 可从触发器的详细视图中访问有关触发了多少触发器的报告。 如果需要，您可以使用铅笔图标编辑触发器。
+1. 您可以从触发器的详细视图中访问有关已触发的触发器数量的报告。 如果需要，您可以使用铅笔图标编辑触发器。
 
    ![](assets/triggers_5.png)
