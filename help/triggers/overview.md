@@ -5,20 +5,24 @@ exl-id: f49e3da5-acba-4b60-a875-94a6be979cc0
 TQID: https://experienceleague.adobe.com/qY4I-1h-KYpVx3yNz2c5cQFB9bB3I7sSNQ6RtTIyEPY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: Insights
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 280
+source-wordcount: '280'
 ht-degree: 100%
-
 ---
-
 # 关于 Experience Cloud 触发器 {#overview}
 
 Experience Cloud Triggers 触发器提供一种识别、定义和监控重要消费者行为的综合解决方案。 通过这些触发器，可产生应用程序间通信以重新吸引访客，形成更加个性化和吸引人的用户体验。
@@ -31,8 +35,8 @@ Experience Cloud Triggers 触发器提供一种识别、定义和监控重要消
 
 ## 触发器类型
 
-通常，触发器可能要用 15-90 分钟时间才能启动市场营销活动。 此延迟根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
+通常，触发器可能需要 15 – 90 分钟才能启动营销活动。 此延迟根据数据收集的实施、管道的加载、定义触发器的自定义配置以及 Adobe Campaign 中的工作流而有所不同。
 
 * **放弃：**&#x200B;可创建触发器，以便在访客查看产品却未将任何东西添加到购物车时触发。
-* **操作：**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。 如果您是零售商，则可以针对注册忠诚度计划的访客创建一个触发器。 在媒体和娱乐业中，可以为观看特定节目并且您可能想要收集调查结果的访客创建触发器。
+* **操作：**&#x200B;可创建触发器，以便在例如新闻稿注册、电子邮件订阅或信用卡申请（确认）后触发。 如果您是零售商，则可以针对注册忠诚度计划的访客创建一个触发器。 在媒体和娱乐业中，可以为观看特定节目的访客创建触发器，并且您可能希望以调查作为回应。
 * **会话开始和会话结束：**&#x200B;为会话开始和会话结束事件创建触发器。
